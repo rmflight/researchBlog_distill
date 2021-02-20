@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
+  <url>
+    <loc>https://rmflight.github.io/about.html</loc>
+    <lastmod>2021-02-16T21:58:34-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rmflight.github.io/</loc>
+    <lastmod>2021-02-16T21:23:27-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rmflight.github.io/posts/2013-09-17-r-rstudio-and-release-and-dev-bioconductor/</loc>
+    <lastmod>2021-02-18T23:06:32-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rmflight.github.io/posts/2013-08-16-reproducible-methods/</loc>
+    <lastmod>2021-02-18T22:58:46-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rmflight.github.io/posts/2013-07-11-r-interface-for-teaching/</loc>
+    <lastmod>2021-02-18T22:38:38-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rmflight.github.io/posts/2013-05-30-storing-package-data-in-custom-environments/</loc>
+    <lastmod>2021-02-18T22:28:25-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rmflight.github.io/posts/2013-05-10-writing-up-scientific-results-and-literate-programming/</loc>
+    <lastmod>2021-02-18T22:24:43-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rmflight.github.io/posts/2012-10-09-writing-papers-using-r-markdown/</loc>
+    <lastmod>2021-02-18T22:17:37-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rmflight.github.io/posts/2012-08-15-journal-club-2012-08-15/</loc>
+    <lastmod>2021-02-18T22:12:27-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rmflight.github.io/posts/2012-07-13-creating-custom-cdf-s-for-affymetrix-chips-in-bioconductor/</loc>
+    <lastmod>2021-02-18T22:10:45-05:00</lastmod>
+  </url>
+</urlset>

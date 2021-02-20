@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Deciphering Life: One Bit at a Time</title>
+    <link>https://rmflight.github.io/</link>
+    <atom:link href="https://rmflight.github.io/index.xml" rel="self" type="application/rss+xml"/>
+    <description>Deciphering Life: One Bit at a Time
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Tue, 17 Sep 2013 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>R, RStudio, and Release and Dev Bioconductor</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2013-09-17-r-rstudio-and-release-and-dev-bioconductor</link>
+      <description>Working with the development version of Bioconductor on linux can be a pain. This is one way to do it.</description>
+      <category>R</category>
+      <category>bioconductor</category>
+      <category>rstudio</category>
+      <guid>https://rmflight.github.io/posts/2013-09-17-r-rstudio-and-release-and-dev-bioconductor</guid>
+      <pubDate>Tue, 17 Sep 2013 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reproducible Methods</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2013-08-16-reproducible-methods</link>
+      <description>A short missive on reproducibility, especially within computational work.</description>
+      <category>open-science</category>
+      <category>reproducibility</category>
+      <guid>https://rmflight.github.io/posts/2013-08-16-reproducible-methods</guid>
+      <pubDate>Fri, 16 Aug 2013 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>R Interface for Teaching</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2013-07-11-r-interface-for-teaching</link>
+      <description>What is the best interface for teaching a language like R?</description>
+      <category>R</category>
+      <category>teaching</category>
+      <category>notebooks</category>
+      <guid>https://rmflight.github.io/posts/2013-07-11-r-interface-for-teaching</guid>
+      <pubDate>Thu, 11 Jul 2013 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Storing Package Data in Custom Environments</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2013-05-30-storing-package-data-in-custom-environments</link>
+      <description>How do you keep track of stuff for your own package without cluttering the users global space or setting a bunch of options?</description>
+      <category>R</category>
+      <category>packages</category>
+      <guid>https://rmflight.github.io/posts/2013-05-30-storing-package-data-in-custom-environments</guid>
+      <pubDate>Thu, 30 May 2013 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Writing Up Scientific Results and Literate Programming</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2013-05-10-writing-up-scientific-results-and-literate-programming</link>
+      <description>My thoughts on using literate programming to investigate and report scientific results</description>
+      <category>literate-programming</category>
+      <guid>https://rmflight.github.io/posts/2013-05-10-writing-up-scientific-results-and-literate-programming</guid>
+      <pubDate>Fri, 10 May 2013 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Writing Papers Using R Markdown</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2012-10-09-writing-papers-using-r-markdown</link>
+      <description>How I used RMarkdown to write a manuscript</description>
+      <category>R</category>
+      <category>open-science</category>
+      <category>reproducibility</category>
+      <guid>https://rmflight.github.io/posts/2012-10-09-writing-papers-using-r-markdown</guid>
+      <pubDate>Tue, 09 Oct 2012 00:00:00 +0000</pubDate>
+      <media:content url="https://rmflight.github.io/posts/2012-10-09-writing-papers-using-r-markdown/writing-papers-using-rmarkdown_files/figure-html5/figureInsert-1.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
+    <item>
+      <title>Journal Club 2012-08-15</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2012-08-15-journal-club-2012-08-15</link>
+      <description>A summary of the paper Google Goes Cancer as was discussed in our journal club.</description>
+      <category>journal-club</category>
+      <guid>https://rmflight.github.io/posts/2012-08-15-journal-club-2012-08-15</guid>
+      <pubDate>Wed, 15 Aug 2012 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Creating Custom CDF's for Affymetrix Chips in Bioconductor</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2012-07-13-creating-custom-cdf-s-for-affymetrix-chips-in-bioconductor</link>
+      <description>Examples of messing with Affymetrix CDF data in bioconductor.</description>
+      <category>R</category>
+      <category>bioconductor</category>
+      <category>cdf</category>
+      <guid>https://rmflight.github.io/posts/2012-07-13-creating-custom-cdf-s-for-affymetrix-chips-in-bioconductor</guid>
+      <pubDate>Fri, 13 Jul 2012 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
