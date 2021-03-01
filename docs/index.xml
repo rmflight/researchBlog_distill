@@ -2,93 +2,634 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
     <title>Deciphering Life: One Bit at a Time</title>
-    <link>https://rmflight.github.io/distill_testblog/</link>
-    <atom:link href="https://rmflight.github.io/distill_testblog/index.xml" rel="self" type="application/rss+xml"/>
-    <description>Deciphering Life: One Bit at a Time
+    <link>https://rmflight.github.io/</link>
+    <atom:link href="https://rmflight.github.io/index.xml" rel="self" type="application/rss+xml"/>
+    <description>Musings on R, programming, -omics, open science, and whatever.
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Tue, 17 Sep 2013 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Things I Learned About distill</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2021-02-28-things-i-learned-about-distill</link>
+      <description>The various things I learned about the distill blog setup while converting posts over from my old blogdown site.</description>
+      <category>distill</category>
+      <category>blogdown</category>
+      <category>rmarkdown</category>
+      <guid>https://rmflight.github.io/posts/2021-02-28-things-i-learned-about-distill</guid>
+      <pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using group_by Instead of Splits</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2020-02-25-using-group-by-instead-of-splitting</link>
+      <description>How to use group_by instead of split's to summarize things.</description>
+      <category>R</category>
+      <category>dplyr</category>
+      <category>split</category>
+      <category>group-by</category>
+      <category>programming</category>
+      <category>development</category>
+      <guid>https://rmflight.github.io/posts/2020-02-25-using-group-by-instead-of-splitting</guid>
+      <pubDate>Tue, 25 Feb 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Narrower PDF Kable Tables</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2019-11-06-narrower-kable-tables</link>
+      <description>This is how you should make narrower kable tables in rmarkdown PDF documents.</description>
+      <category>R</category>
+      <category>knitr</category>
+      <category>kable</category>
+      <category>learning</category>
+      <category>rmarkdown</category>
+      <guid>https://rmflight.github.io/posts/2019-11-06-narrower-kable-tables</guid>
+      <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Scientific Programming</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2019-10-23-introducing-scientific-programming</link>
+      <description>How and when should we get people in academia programming? What if we had a unified front across the science labs?</description>
+      <category>R</category>
+      <category>reproducibility</category>
+      <category>programming</category>
+      <category>academia</category>
+      <guid>https://rmflight.github.io/posts/2019-10-23-introducing-scientific-programming</guid>
+      <pubDate>Wed, 23 Oct 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comments enabled via utterances</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2019-10-16-comments-enabled-via-utterances</link>
+      <description>How I got utterances working on blogdown.</description>
+      <category>blogdown</category>
+      <category>commenting</category>
+      <category>utterances</category>
+      <guid>https://rmflight.github.io/posts/2019-10-16-comments-enabled-via-utterances</guid>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comparisons using for loops vs split</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2019-02-13-for-loops-vs-split</link>
+      <description>for loops often hide much of the actual logic of your code because of all the necessary boilerplate of running a loop. split-ting your data can oftentimes be clearer, and faster.</description>
+      <category>R</category>
+      <category>for-loop</category>
+      <category>split</category>
+      <category>purrr</category>
+      <category>development</category>
+      <guid>https://rmflight.github.io/posts/2019-02-13-for-loops-vs-split</guid>
+      <pubDate>Wed, 13 Feb 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nicer PNG Graphics</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2018-12-06-nicer-png-graphics</link>
+      <description>Here are some tips for getting nicer graphics in your rmarkdown outputs.</description>
+      <guid>https://rmflight.github.io/posts/2018-12-06-nicer-png-graphics</guid>
+      <pubDate>Thu, 06 Dec 2018 00:00:00 +0000</pubDate>
+      <media:content url="https://rmflight.github.io/posts/2018-12-06-nicer-png-graphics/nicer-png-graphics_files/figure-html5/first_image-1.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
+    <item>
+      <title>Don't do PCA After Statistical Testing!</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2018-09-14-don-t-do-pca-after-statistical-testing</link>
+      <description>You might be tempted to do PCA after a statistical test. Read more to discover why this is a bad idea.</description>
+      <category>pca</category>
+      <category>bioinformatics</category>
+      <category>R</category>
+      <category>t-test</category>
+      <guid>https://rmflight.github.io/posts/2018-09-14-don-t-do-pca-after-statistical-testing</guid>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      <media:content url="https://rmflight.github.io/posts/2018-09-14-don-t-do-pca-after-statistical-testing/don-t-do-pca-after-statistical-testing_files/figure-html5/all_pca-1.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
+    <item>
+      <title>Finding Modes Using Kernel Density Estimates</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2018-07-19-finding-modes-using-kernel-density-estimates</link>
+      <description>Examples of finding the mode of a univeriate distribution in R and Python.</description>
+      <category>R</category>
+      <category>python</category>
+      <category>kernel-density</category>
+      <category>pdf</category>
+      <category>probability-density</category>
+      <category>programming</category>
+      <guid>https://rmflight.github.io/posts/2018-07-19-finding-modes-using-kernel-density-estimates</guid>
+      <pubDate>Thu, 19 Jul 2018 00:00:00 +0000</pubDate>
+      <media:content url="https://rmflight.github.io/posts/2018-07-19-finding-modes-using-kernel-density-estimates/finding-modes-using-kernel-density-estimates_files/figure-html5/density_mode-1.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
+    <item>
+      <title>Split - Unsplit Anti-Pattern</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2018-07-17-split-unsplit-anti-pattern</link>
+      <description>Getting some speed using dplyr::join than my more intuitive split --&gt; unsplit pattern.</description>
+      <category>R</category>
+      <category>development</category>
+      <category>programming</category>
+      <category>purrr</category>
+      <category>dplyr</category>
+      <category>join</category>
+      <guid>https://rmflight.github.io/posts/2018-07-17-split-unsplit-anti-pattern</guid>
+      <pubDate>Tue, 17 Jul 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using IRanges for Non-Integer Overlaps</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2018-06-23-iranges-for-non-integer-overlaps</link>
+      <description>I wanted to make use of IRanges awesome interval logic, but for non-integer data.</description>
+      <category>R</category>
+      <category>iranges</category>
+      <category>development</category>
+      <category>programming</category>
+      <guid>https://rmflight.github.io/posts/2018-06-23-iranges-for-non-integer-overlaps</guid>
+      <pubDate>Sat, 23 Jun 2018 00:00:00 +0000</pubDate>
+      <media:content url="https://rmflight.github.io/posts/2018-06-23-iranges-for-non-integer-overlaps/iranges-for-non-integer-overlaps_files/figure-html5/difference_times-1.svg" medium="image" type="image/svg+xml"/>
+    </item>
+    <item>
+      <title>Turn Robert's Beard Purple!</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2018-06-20-turn-roberts-beard-purple</link>
+      <description>I'm trying to raise money for the Walk for Alzheimer's, will you sponsor me?</description>
+      <category>alzheimers</category>
+      <category>fundraising</category>
+      <guid>https://rmflight.github.io/posts/2018-06-20-turn-roberts-beard-purple</guid>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>knitrProgressBar Package</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2018-02-19-knitrprogressbar</link>
+      <description>Ever wanted a progress bar output visible in a knitr document? Now you can!</description>
+      <category>packages</category>
+      <category>R</category>
+      <category>development</category>
+      <guid>https://rmflight.github.io/posts/2018-02-19-knitrprogressbar</guid>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Licensing R Packages that Include Others Code</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2018-02-14-licensing-r-packages-that-include-others-code</link>
+      <description>I wanted to include others code in my package, and couldn't find any good resources.</description>
+      <category>R</category>
+      <category>packages</category>
+      <category>open-science</category>
+      <category>licensing</category>
+      <guid>https://rmflight.github.io/posts/2018-02-14-licensing-r-packages-that-include-others-code</guid>
+      <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>docopt &amp; Numeric Options</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2018-01-17-docopt-numeric-optoins</link>
+      <description>Every input is a string in docopt. Every Input!!</description>
+      <category>R</category>
+      <category>development</category>
+      <category>programming</category>
+      <category>docopt</category>
+      <guid>https://rmflight.github.io/posts/2018-01-17-docopt-numeric-optoins</guid>
+      <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Custom Deployment Script</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2017-12-27-custom-deployment-script</link>
+      <description>I don't want to use Netlify for hosting, so I came up with this simple script to deploy my blog.</description>
+      <category>R</category>
+      <category>blogdown</category>
+      <category>development</category>
+      <guid>https://rmflight.github.io/posts/2017-12-27-custom-deployment-script</guid>
+      <pubDate>Wed, 27 Dec 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Differences in Posted Date vs sessionInfo()</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2017-12-27-differences-in-posted-date-vs-sessioninfo</link>
+      <description>If you see differences in the sessionInfo output and the date the post was published, this is why.</description>
+      <category>development</category>
+      <category>blogdown</category>
+      <guid>https://rmflight.github.io/posts/2017-12-27-differences-in-posted-date-vs-sessioninfo</guid>
+      <pubDate>Wed, 27 Dec 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linking to Manually Inserted Images in Blogdown / Hugo</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2017-12-27-linking-to-manually-inserted-images-in-hugo</link>
+      <description>This is my method to include something manually in a blogdown post.</description>
+      <category>hugo</category>
+      <category>R</category>
+      <category>blogdown</category>
+      <guid>https://rmflight.github.io/posts/2017-12-27-linking-to-manually-inserted-images-in-hugo</guid>
+      <pubDate>Wed, 27 Dec 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>I was Part of the Problem</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2017-10-18-i-was-part-of-the-problem</link>
+      <description>Why do so many men think it's OK to lavish unwanted attention on women who don't want it?</description>
+      <category>metoo</category>
+      <category>academia</category>
+      <guid>https://rmflight.github.io/posts/2017-10-18-i-was-part-of-the-problem</guid>
+      <pubDate>Wed, 18 Oct 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Criticizing a Publication, and Lying About It</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2017-03-29-criticizing-a-publication-and-lying-about-it</link>
+      <description>Critics of our last publication claimed we didn't make our data available, which is an outright lie.</description>
+      <category>publications</category>
+      <category>peer-review</category>
+      <category>zinc</category>
+      <category>academia</category>
+      <guid>https://rmflight.github.io/posts/2017-03-29-criticizing-a-publication-and-lying-about-it</guid>
+      <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Authentication of Key Resources for Data Analysis</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2016-03-23-authentication-of-key-resources-for-data-analysis</link>
+      <description>NIH is asking for authentication of key resources. How does this apply to data analyses?</description>
+      <category>reproducibility</category>
+      <category>open-science</category>
+      <category>analysis</category>
+      <guid>https://rmflight.github.io/posts/2016-03-23-authentication-of-key-resources-for-data-analysis</guid>
+      <pubDate>Wed, 23 Mar 2016 00:00:00 +0000</pubDate>
+      <media:content url="https://rmflight.github.io/posts/2016-03-23-authentication-of-key-resources-for-data-analysis/yeast_48rep_cor_heatmap.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Random Forest vs PLS on Random Data</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2015-12-12-random-forest-vs-pls-on-random-data</link>
+      <description>Comparing random-forest and partial-least-squares discriminant-analysis on random data to show the problems inherent in PLS-DA.</description>
+      <category>random-forest</category>
+      <category>machine-learning</category>
+      <category>partial-least-squares</category>
+      <category>statistics</category>
+      <category>analysis</category>
+      <guid>https://rmflight.github.io/posts/2015-12-12-random-forest-vs-pls-on-random-data</guid>
+      <pubDate>Sat, 12 Dec 2015 00:00:00 +0000</pubDate>
+      <media:content url="https://rmflight.github.io/posts/2015-12-12-random-forest-vs-pls-on-random-data/random-forest-vs-pls-on-random-data_files/figure-html5/plot_initial-1.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
+    <item>
+      <title>Novel Zinc Coordination Geometries</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2015-06-17-novel-zinc-coordination-geometries</link>
+      <description>A bit of an explainer on our labs recent publication on finding and classifying zinc coordination geometries in protein structures.</description>
+      <category>zinc</category>
+      <category>structural-biochemistry</category>
+      <category>open-science</category>
+      <category>reproducibility</category>
+      <category>visualization</category>
+      <category>publications</category>
+      <guid>https://rmflight.github.io/posts/2015-06-17-novel-zinc-coordination-geometries</guid>
+      <pubDate>Wed, 17 Jun 2015 00:00:00 +0000</pubDate>
+      <media:content url="https://rmflight.github.io/posts/2015-06-17-novel-zinc-coordination-geometries/prot24834-fig-0002.png" medium="image" type="image/png" width="500" height="256"/>
+    </item>
+    <item>
+      <title>Mouse / Human Transcriptomics and Batch Effects</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2015-06-01-mouse-human-transcriptomics-and-batch-effects</link>
+      <description>A recent paper dug into some data from another paper, casting doubts on the first, all thanks to the data being available.</description>
+      <category>open-science</category>
+      <category>transcriptomics</category>
+      <category>batch-effects</category>
+      <category>publications</category>
+      <category>peer-review</category>
+      <guid>https://rmflight.github.io/posts/2015-06-01-mouse-human-transcriptomics-and-batch-effects</guid>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+      <media:content url="https://rmflight.github.io/posts/2015-06-01-mouse-human-transcriptomics-and-batch-effects/slin_table1part2.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>First Open Post-Publication Peer Review, with Credit!</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2015-03-25-first-open-post-publication-peer-review-with-credit</link>
+      <description>A story about my first open peer-review.</description>
+      <category>open-science</category>
+      <category>peer-review</category>
+      <category>publications</category>
+      <guid>https://rmflight.github.io/posts/2015-03-25-first-open-post-publication-peer-review-with-credit</guid>
+      <pubDate>Wed, 25 Mar 2015 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Being a PhD Student and Post-Doc with Migraines</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2014-12-31-being-a-phd-student-and-post-doc-with-migraines</link>
+      <description>What it's like having migraines as a PhD student and PostDoc.</description>
+      <category>phdisabled</category>
+      <category>migraines</category>
+      <category>academia</category>
+      <guid>https://rmflight.github.io/posts/2014-12-31-being-a-phd-student-and-post-doc-with-migraines</guid>
+      <pubDate>Wed, 31 Dec 2014 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Travis-CI to GitHub Pages</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2014-11-05-travis-ci-to-github-pages</link>
+      <description>How I automatically have some stuff get pushed to GitHub pages from a Travis CI job.</description>
+      <category>R</category>
+      <category>reproducibility</category>
+      <category>travis-ci</category>
+      <category>github</category>
+      <category>publishing</category>
+      <guid>https://rmflight.github.io/posts/2014-11-05-travis-ci-to-github-pages</guid>
+      <pubDate>Wed, 05 Nov 2014 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>My Career Goals</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2014-08-08-my-career-goals</link>
+      <description>I don't want to be a lab PI, but I want to stay in academia.</description>
+      <category>post-doc</category>
+      <category>career</category>
+      <category>academia</category>
+      <guid>https://rmflight.github.io/posts/2014-08-08-my-career-goals</guid>
+      <pubDate>Fri, 08 Aug 2014 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Analyses as Packages</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2014-07-28-analyses-as-packages</link>
+      <description>Why I think packages make good ways to structure an analysis.</description>
+      <category>R</category>
+      <category>development</category>
+      <category>packages</category>
+      <category>vignettes</category>
+      <category>programming</category>
+      <category>analysis</category>
+      <guid>https://rmflight.github.io/posts/2014-07-28-analyses-as-packages</guid>
+      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Creating an Analysis as a Package and Vignette</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2014-07-28-creating-an-analysis-as-a-package-and-vignette</link>
+      <description>A walkthrough creating an analysis project as a package.</description>
+      <category>R</category>
+      <category>development</category>
+      <category>packages</category>
+      <category>vignettes</category>
+      <category>analysis</category>
+      <category>programming</category>
+      <guid>https://rmflight.github.io/posts/2014-07-28-creating-an-analysis-as-a-package-and-vignette</guid>
+      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Packages vs ProjectTemplate</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2014-07-28-packages-vs-projecttemplate</link>
+      <description>Why I think packages are better than the projectTemplate package.</description>
+      <category>R</category>
+      <category>packages</category>
+      <category>analysis</category>
+      <category>development</category>
+      <guid>https://rmflight.github.io/posts/2014-07-28-packages-vs-projecttemplate</guid>
+      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Researcher Discoverability</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2014-06-19-researcher-discoverability</link>
+      <description>Why do we need corporate products to enhance "researcher discoverability"?</description>
+      <category>github</category>
+      <category>open-science</category>
+      <category>academia</category>
+      <category>research</category>
+      <guid>https://rmflight.github.io/posts/2014-06-19-researcher-discoverability</guid>
+      <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bioinformatics Presentations that Lack Results (or Biological Relevance)</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2014-06-05-bioinformatics-presentations-that-lack-results-or-biological-relevance</link>
+      <description>Why do people have bionformatics presentations lacking relevance or results?</description>
+      <category>bioinformatics</category>
+      <category>academia</category>
+      <category>research</category>
+      <guid>https://rmflight.github.io/posts/2014-06-05-bioinformatics-presentations-that-lack-results-or-biological-relevance</guid>
+      <pubDate>Thu, 05 Jun 2014 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>categoryCompare Paper Finally Out!</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2014-04-08-categorycompare-paper-finally-out</link>
+      <description>My first first author publication since starting my PostDoc is finally out, about my meta-annotation-enrichment software package categoyrCompare.</description>
+      <category>R</category>
+      <category>bioconductor</category>
+      <category>meta-analysis</category>
+      <category>publications</category>
+      <category>git</category>
+      <category>github</category>
+      <category>open-science</category>
+      <category>visualization</category>
+      <category>annotation-enrichment</category>
+      <guid>https://rmflight.github.io/posts/2014-04-08-categorycompare-paper-finally-out</guid>
+      <pubDate>Tue, 08 Apr 2014 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Self-Written Function Help</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2014-02-20-self-written-function-help</link>
+      <description>Do you want to be able to read function documentation for your own functions? Make your own package.</description>
+      <category>R</category>
+      <category>packages</category>
+      <category>documentation</category>
+      <category>development</category>
+      <category>devtools</category>
+      <category>roxygen2</category>
+      <category>docstrings</category>
+      <guid>https://rmflight.github.io/posts/2014-02-20-self-written-function-help</guid>
+      <pubDate>Thu, 20 Feb 2014 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Installing MatLab vs Installing R</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2014-02-10-installing-matlab-vs-installing-r</link>
+      <description>Personal frustrations around installing MatLab led to this particular rant.</description>
+      <category>MatLab</category>
+      <category>R</category>
+      <guid>https://rmflight.github.io/posts/2014-02-10-installing-matlab-vs-installing-r</guid>
+      <pubDate>Mon, 10 Feb 2014 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Package Version Increment Pre- and Post-Commit Hooks</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2014-02-07-package-version-increment-pre-and-post-commit-hooks</link>
+      <description>Two git commit hooks for incrementing the package version as part of commits.</description>
+      <category>R</category>
+      <category>git</category>
+      <category>packages</category>
+      <category>development</category>
+      <category>programming</category>
+      <guid>https://rmflight.github.io/posts/2014-02-07-package-version-increment-pre-and-post-commit-hooks</guid>
+      <pubDate>Fri, 07 Feb 2014 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Motivated Learning</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2014-01-28-motivated-learning</link>
+      <description>Two personal stories on times I was very motivated to learn, as part of my Software-Carpentry instructor training.</description>
+      <category>learning</category>
+      <category>software-carpentry</category>
+      <category>git</category>
+      <category>calculus</category>
+      <guid>https://rmflight.github.io/posts/2014-01-28-motivated-learning</guid>
+      <pubDate>Tue, 28 Jan 2014 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PubmedCommons API</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2013-10-22-pubmedcommons-api</link>
+      <description>Pubmed commons is a new commenting system for pubmed articles.</description>
+      <category>open-science</category>
+      <category>pubmed</category>
+      <guid>https://rmflight.github.io/posts/2013-10-22-pubmedcommons-api</guid>
+      <pubDate>Tue, 22 Oct 2013 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Open vs Closed Analysis Languages</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2013-10-21-open-vs-closed-analysis-languages</link>
+      <description>Talking about R &amp; Python vs MatLab as examples of open and closed data analysis languages.</description>
+      <category>open-science</category>
+      <category>R</category>
+      <category>python</category>
+      <category>MatLab</category>
+      <category>programming</category>
+      <category>development</category>
+      <guid>https://rmflight.github.io/posts/2013-10-21-open-vs-closed-analysis-languages</guid>
+      <pubDate>Mon, 21 Oct 2013 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pre-Calculating Large Tables of Values</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2013-10-17-pre-calculating-large-tables-of-values</link>
+      <description>Demonstrating a way to generate a large amount of numbers that otherwise might take a long time to calculate.</description>
+      <category>R</category>
+      <category>pre-calulations</category>
+      <category>programming</category>
+      <category>development</category>
+      <category>c++</category>
+      <guid>https://rmflight.github.io/posts/2013-10-17-pre-calculating-large-tables-of-values</guid>
+      <pubDate>Thu, 17 Oct 2013 00:00:00 +0000</pubDate>
+      <media:content url="https://rmflight.github.io/posts/2013-10-17-pre-calculating-large-tables-of-values/pre-calculating-large-tables-of-numbers_files/figure-html5/genRandomData-1.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
+    <item>
+      <title>Portable, Personal Packages</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2013-09-23-portable-peronal-packages</link>
+      <description>My take on creating simple little packages for your own commonly used functions.</description>
+      <category>R</category>
+      <category>packages</category>
+      <category>development</category>
+      <guid>https://rmflight.github.io/posts/2013-09-23-portable-peronal-packages</guid>
+      <pubDate>Mon, 23 Sep 2013 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>K-12 Wants Scientists!!</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/posts/2013-09-19-k-12-wants-scientists</link>
+      <description>I recently attended a talk about PhD scientists in grade school teaching.</description>
+      <category>post-doc</category>
+      <category>academia</category>
+      <category>science</category>
+      <category>teaching</category>
+      <guid>https://rmflight.github.io/posts/2013-09-19-k-12-wants-scientists</guid>
+      <pubDate>Thu, 19 Sep 2013 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>R, RStudio, and Release and Dev Bioconductor</title>
       <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/distill_testblog/posts/2013-09-17-r-rstudio-and-release-and-dev-bioconductor</link>
+      <link>https://rmflight.github.io/posts/2013-09-17-r-rstudio-and-release-and-dev-bioconductor</link>
       <description>Working with the development version of Bioconductor on linux can be a pain. This is one way to do it.</description>
       <category>R</category>
       <category>bioconductor</category>
       <category>rstudio</category>
-      <guid>https://rmflight.github.io/distill_testblog/posts/2013-09-17-r-rstudio-and-release-and-dev-bioconductor</guid>
+      <category>programming</category>
+      <category>packages</category>
+      <category>development</category>
+      <guid>https://rmflight.github.io/posts/2013-09-17-r-rstudio-and-release-and-dev-bioconductor</guid>
       <pubDate>Tue, 17 Sep 2013 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Reproducible Methods</title>
       <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/distill_testblog/posts/2013-08-16-reproducible-methods</link>
+      <link>https://rmflight.github.io/posts/2013-08-16-reproducible-methods</link>
       <description>A short missive on reproducibility, especially within computational work.</description>
       <category>open-science</category>
       <category>reproducibility</category>
-      <guid>https://rmflight.github.io/distill_testblog/posts/2013-08-16-reproducible-methods</guid>
+      <category>bioinformatics</category>
+      <guid>https://rmflight.github.io/posts/2013-08-16-reproducible-methods</guid>
       <pubDate>Fri, 16 Aug 2013 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>R Interface for Teaching</title>
       <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/distill_testblog/posts/2013-07-11-r-interface-for-teaching</link>
+      <link>https://rmflight.github.io/posts/2013-07-11-r-interface-for-teaching</link>
       <description>What is the best interface for teaching a language like R?</description>
       <category>R</category>
       <category>teaching</category>
       <category>notebooks</category>
-      <guid>https://rmflight.github.io/distill_testblog/posts/2013-07-11-r-interface-for-teaching</guid>
+      <guid>https://rmflight.github.io/posts/2013-07-11-r-interface-for-teaching</guid>
       <pubDate>Thu, 11 Jul 2013 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Storing Package Data in Custom Environments</title>
       <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/distill_testblog/posts/2013-05-30-storing-package-data-in-custom-environments</link>
+      <link>https://rmflight.github.io/posts/2013-05-30-storing-package-data-in-custom-environments</link>
       <description>How do you keep track of stuff for your own package without cluttering the users global space or setting a bunch of options?</description>
       <category>R</category>
       <category>packages</category>
-      <guid>https://rmflight.github.io/distill_testblog/posts/2013-05-30-storing-package-data-in-custom-environments</guid>
+      <guid>https://rmflight.github.io/posts/2013-05-30-storing-package-data-in-custom-environments</guid>
       <pubDate>Thu, 30 May 2013 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Writing Up Scientific Results and Literate Programming</title>
       <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/distill_testblog/posts/2013-05-10-writing-up-scientific-results-and-literate-programming</link>
+      <link>https://rmflight.github.io/posts/2013-05-10-writing-up-scientific-results-and-literate-programming</link>
       <description>My thoughts on using literate programming to investigate and report scientific results</description>
       <category>literate-programming</category>
-      <guid>https://rmflight.github.io/distill_testblog/posts/2013-05-10-writing-up-scientific-results-and-literate-programming</guid>
+      <category>academia</category>
+      <category>notebooks</category>
+      <category>reproducibility</category>
+      <guid>https://rmflight.github.io/posts/2013-05-10-writing-up-scientific-results-and-literate-programming</guid>
       <pubDate>Fri, 10 May 2013 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Writing Papers Using R Markdown</title>
       <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/distill_testblog/posts/2012-10-09-writing-papers-using-r-markdown</link>
+      <link>https://rmflight.github.io/posts/2012-10-09-writing-papers-using-r-markdown</link>
       <description>How I used RMarkdown to write a manuscript</description>
       <category>R</category>
       <category>open-science</category>
       <category>reproducibility</category>
-      <guid>https://rmflight.github.io/distill_testblog/posts/2012-10-09-writing-papers-using-r-markdown</guid>
+      <category>literate-programming</category>
+      <category>rmarkdown</category>
+      <guid>https://rmflight.github.io/posts/2012-10-09-writing-papers-using-r-markdown</guid>
       <pubDate>Tue, 09 Oct 2012 00:00:00 +0000</pubDate>
-      <media:content url="https://rmflight.github.io/distill_testblog/posts/2012-10-09-writing-papers-using-r-markdown/writing-papers-using-rmarkdown_files/figure-html5/figureInsert-1.png" medium="image" type="image/png" width="1248" height="768"/>
+      <media:content url="https://rmflight.github.io/posts/2012-10-09-writing-papers-using-r-markdown/writing-papers-using-rmarkdown_files/figure-html5/figureInsert-1.png" medium="image" type="image/png" width="1248" height="768"/>
     </item>
     <item>
       <title>Journal Club 2012-08-15</title>
       <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/distill_testblog/posts/2012-08-15-journal-club-2012-08-15</link>
+      <link>https://rmflight.github.io/posts/2012-08-15-journal-club-2012-08-15</link>
       <description>A summary of the paper Google Goes Cancer as was discussed in our journal club.</description>
       <category>journal-club</category>
-      <guid>https://rmflight.github.io/distill_testblog/posts/2012-08-15-journal-club-2012-08-15</guid>
+      <guid>https://rmflight.github.io/posts/2012-08-15-journal-club-2012-08-15</guid>
       <pubDate>Wed, 15 Aug 2012 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Creating Custom CDF's for Affymetrix Chips in Bioconductor</title>
+      <title>Creating Custom CDFs for Affymetrix Chips in Bioconductor</title>
       <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/distill_testblog/posts/2012-07-13-creating-custom-cdf-s-for-affymetrix-chips-in-bioconductor</link>
-      <description>Examples of messing with Affymetrix CDF data in bioconductor.</description>
+      <link>https://rmflight.github.io/posts/2012-07-13-creating-custom-cdf-s-for-affymetrix-chips-in-bioconductor</link>
+      <description>Examples of messing with Affymetrix CDF data in Bioconductor.</description>
       <category>R</category>
       <category>bioconductor</category>
+      <category>bioinformatics</category>
       <category>cdf</category>
-      <guid>https://rmflight.github.io/distill_testblog/posts/2012-07-13-creating-custom-cdf-s-for-affymetrix-chips-in-bioconductor</guid>
+      <category>affymetrix</category>
+      <category>microarray</category>
+      <guid>https://rmflight.github.io/posts/2012-07-13-creating-custom-cdf-s-for-affymetrix-chips-in-bioconductor</guid>
       <pubDate>Fri, 13 Jul 2012 00:00:00 +0000</pubDate>
     </item>
   </channel>

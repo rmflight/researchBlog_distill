@@ -1,0 +1,50 @@
+---
+title: "About The Blog & Robert M Flight"
+description: |
+  Some additional details about the blog and myself
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## The Blog
+
+This is a place for me to share tips and tricks, as well recent publications, and whatever is on my mind.
+You are likely to find personal analysis projects, as well as my musings on R code and different types of algorithms.
+
+All opinions are my own and do not reflect those of my employer or the university where I work.
+
+## Me
+
+I'm a senior research associate in bioinformatics at the [Moseley Bioinformatics and Systems Biology Lab](https://bioinformatics.cesb.uky.edu/), which is part of the [Markey Cancer Center](https://ukhealthcare.uky.edu/markey-cancer-center) at the [University of Kentucky](http://www.uky.edu/). 
+I work with our collaborators to analyse a variety of -omics data, including transcriptomics and metabolomics using both previously established and newly developed methods.
+
+I have been analyzing -omics type data since 2004, and programming in R since 2010.
+I authored the [categoryCompare](https://bioconductor.org/packages/release/bioc/html/categoryCompare.html) Bioconductor package for comparing -omics data using annotations.
+
+You can find my publications (and other research outputs) on my [ORCID profile](https://orcid.org/0000-0001-8141-7788).
+
+### Links
+
+* [ORCID](https://orcid.org/0000-0001-8141-7788)
+* [GitHub](https://github.com/rmflight)
+* [Twitter](https://twitter.com/rmflight)
+* [Google Scholar](https://scholar.google.com/citations?user=G8bFNwYAAAAJ)
+* [Rxivist](https://rxivist.org/authors/230885)
+* [figshare](https://figshare.com/authors/Robert_M_Flight/99873)
+
+### Interests
+
+* Open Science
+* Bioinformatics
+* Metabolomics
+* Structural Biology
+* Systems Biology
+
+### Education
+
+* PhD in Analytical Chemistry, 2009, Dalhousie University
+  * [A Workflow for the Analysis of DNA Microarray Time-Course Data](https://figshare.com/articles/thesis/A_Workflow_for_the_Analysis_of_DNA_Microarray_Time-Course_Data/96859/1)
+* MSc in Chemistry, 2004, University of New Brunswick
+* BSc in Biology-Chemistry, 2002, University of New Brunswick

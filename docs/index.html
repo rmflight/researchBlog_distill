@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
   <meta name="generator" content="distill" />
-  <link rel="alternate" type="application/rss+xml" href="https://rmflight.github.io/distill_testblog/index.xml" />
+  <link rel="alternate" type="application/rss+xml" href="https://rmflight.github.io/index.xml" />
 
   <style type="text/css">
   /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
@@ -89,6 +89,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <title>Deciphering Life: One Bit at a Time</title>
 
 
+  <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
@@ -100,6 +101,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
   <meta property="twitter:title" content="Deciphering Life: One Bit at a Time"/>
+  <meta property="twitter:site" content="@rmflight"/>
+  <meta property="twitter:creator" content="@rmflight"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
@@ -2029,6 +2032,387 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   </script>
 
+  <style type="text/css">
+  /* base variables */
+
+  /* Edit the CSS properties in this file to create a custom
+     Distill theme. Only edit values in the right column
+     for each row; values shown are the CSS defaults.
+     To return any property to the default,
+     you may set its value to: unset
+     All rows must end with a semi-colon.                      */
+
+  /* Optional: embed custom fonts here with `@import`          */
+  /* This must remain at the top of this file.                 */
+
+
+
+  html {
+    /*-- Main font sizes --*/
+    --title-size:      50px;
+    --body-size:       1.06rem;
+    --code-size:       14px;
+    --aside-size:      12px;
+    --fig-cap-size:    13px;
+    /*-- Main font colors --*/
+    --title-color:     #000000;
+    --header-color:    rgba(0, 0, 0, 0.8);
+    --body-color:      rgba(0, 0, 0, 0.8);
+    --aside-color:     rgba(0, 0, 0, 0.6);
+    --fig-cap-color:   rgba(0, 0, 0, 0.6);
+    /*-- Specify custom fonts ~~~ must be imported above   --*/
+    --heading-font:    sans-serif;
+    --mono-font:       monospace;
+    --body-font:       sans-serif;
+    --navbar-font:     sans-serif;  /* websites + blogs only */
+  }
+
+  /*-- ARTICLE METADATA --*/
+  d-byline {
+    --heading-size:    0.6rem;
+    --heading-color:   rgba(0, 0, 0, 0.5);
+    --body-size:       0.8rem;
+    --body-color:      rgba(0, 0, 0, 0.8);
+  }
+
+  /*-- ARTICLE TABLE OF CONTENTS --*/
+  .d-contents {
+    --heading-size:    18px;
+    --contents-size:   13px;
+  }
+
+  /*-- ARTICLE APPENDIX --*/
+  d-appendix {
+    --heading-size:    15px;
+    --heading-color:   rgba(0, 0, 0, 0.65);
+    --text-size:       0.8em;
+    --text-color:      rgba(0, 0, 0, 0.5);
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  /* These properties only apply to Distill sites and blogs  */
+
+  .distill-site-header {
+    --title-size:       18px;
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  .distill-site-footer {
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  /*-- Additional custom styles --*/
+  /* Add any additional CSS rules below                      */
+  </style>
+  <style type="text/css">
+  /* base variables */
+
+  /* Edit the CSS properties in this file to create a custom
+     Distill theme. Only edit values in the right column
+     for each row; values shown are the CSS defaults.
+     To return any property to the default,
+     you may set its value to: unset
+     All rows must end with a semi-colon.                      */
+
+  /* Optional: embed custom fonts here with `@import`          */
+  /* This must remain at the top of this file.                 */
+
+
+
+  html {
+    /*-- Main font sizes --*/
+    --title-size:      50px;
+    --body-size:       1.06rem;
+    --code-size:       14px;
+    --aside-size:      12px;
+    --fig-cap-size:    13px;
+    /*-- Main font colors --*/
+    --title-color:     #E1E8ED;
+    --header-color:    #fff;
+    --body-color:      #fff;
+    --aside-color:     #F5F8FA;
+    --fig-cap-color:   #657786;
+    --hover-color:     #1DA1F2;
+    /*-- Specify custom fonts ~~~ must be imported above   --*/
+    --heading-font:    sans-serif;
+    --mono-font:       monospace;
+    --body-font:       sans-serif;
+    --navbar-font:     sans-serif;  /* websites + blogs only */
+  }
+
+  body {
+    background-color:   #14171A;
+  }
+
+  d-title p {
+    color: #fff;
+  }
+
+  /*-- ARTICLE METADATA --*/
+  d-byline {
+    --heading-size:    0.6rem;
+    --heading-color:   #F5F8FA;
+    --body-size:       0.8rem;
+    --body-color:      #fff;
+  }
+
+  /*-- ARTICLE TABLE OF CONTENTS --*/
+  .d-contents {
+    --heading-size:    18px;
+    --contents-size:   13px;
+  }
+
+  /*-- ARTICLE APPENDIX --*/
+  d-appendix {
+    --heading-size:    15px;
+    --heading-color:   #F5F8FA;
+    --text-size:       0.8em;
+    --text-color:      #fff;
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  /* These properties only apply to Distill sites and blogs  */
+
+  .distill-site-header {
+    --title-size:       18px;
+    --text-color:       #E1E8ED;
+    --text-size:        15px;
+    --hover-color:      #1DA1F2;
+    --bkgd-color:       #303030;
+  }
+
+  .distill-site-footer {
+    --text-color:       #E1E8ED;
+    --text-size:        15px;
+    --hover-color:      #1DA1F2;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  /*-- Additional custom styles --*/
+  /* Add any additional CSS rules below                      */
+
+  .dt-tags .dt-tag {
+    color: #F5F8FA;
+  }
+
+  .posts-list .dt-tags .dt-tag {
+    color: #F5F8FA;
+  }
+
+  .posts-list .post-preview p {
+    color: #E1E8ED;
+  }
+
+  .posts-with-sidebar .posts-sidebar li {
+    color: #E1E8ED;
+  }
+
+
+  .posts-with-sidebar .posts-sidebar .category-count {
+    color: #E1E8ED;
+  }
+
+  .posts-list .metadata {
+    color: #F5F8FA;
+  }
+
+  d-article div.sourceCode code, d-article pre code {
+    color: #F5F8FA;
+  }
+
+  d-article a {
+    text-decoration: underline;
+  }
+
+  d-article a:hover {
+    color: #1DA1F2;
+  }
+
+  .l-text, .l-body {
+    color: #F5F8FA;
+  }
+
+  d-appendix a {
+    color: #F5F8FA;
+  }
+
+  d-appendix a:hover {
+    color: #1DA1F2;
+  }
+
+
+  .posts-more {
+    color: #F5F8FA;
+  }
+
+  .posts-more a:hover {
+    color: #1DA1F2;
+  }
+
+
+  .article-footer p {
+    color: #AAB8C2;
+  }</style>
+  <style type="text/css">
+  /* base style */
+
+  /* FONT FAMILIES */
+
+  :root {
+    --heading-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    --mono-default: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    --body-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  body,
+  .posts-list .post-preview p,
+  .posts-list .description p {
+    font-family: var(--body-font), var(--body-default);
+  }
+
+  h1, h2, h3, h4, h5, h6,
+  .posts-list .post-preview h2,
+  .posts-list .description h2 {
+    font-family: var(--heading-font), var(--heading-default);
+  }
+
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-family: var(--mono-font), var(--mono-default);
+  }
+
+
+  /*-- TITLE --*/
+  d-title h1,
+  .posts-list > h1 {
+    color: var(--title-color, black);
+  }
+
+  d-title h1 {
+    font-size: var(--title-size, 50px);
+  }
+
+  /*-- HEADERS --*/
+  d-article h1,
+  d-article h2,
+  d-article h3,
+  d-article h4,
+  d-article h5,
+  d-article h6 {
+    color: var(--header-color, rgba(0, 0, 0, 0.8));
+  }
+
+  /*-- BODY --*/
+  d-article > p,  /* only text inside of <p> tags */
+  d-article > ul, /* lists */
+  d-article > ol {
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+    font-size: var(--body-size, 1.06rem);
+  }
+
+
+  /*-- CODE --*/
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-size: var(--code-size, 14px);
+  }
+
+  /*-- ASIDE --*/
+  d-article aside {
+    font-size: var(--aside-size, 12px);
+    color: var(--aside-color, rgba(0, 0, 0, 0.6));
+  }
+
+  /*-- FIGURE CAPTIONS --*/
+  figure .caption,
+  figure figcaption,
+  .figure .caption {
+    font-size: var(--fig-cap-size, 13px);
+    color: var(--fig-cap-color, rgba(0, 0, 0, 0.6));
+  }
+
+  /*-- METADATA --*/
+  d-byline h3 {
+    font-size: var(--heading-size, 0.6rem);
+    color: var(--heading-color, rgba(0, 0, 0, 0.5));
+  }
+
+  d-byline {
+    font-size: var(--body-size, 0.8rem);
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+  }
+
+  d-byline a,
+  d-article d-byline a {
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+  }
+
+  /*-- TABLE OF CONTENTS --*/
+  .d-contents nav h3 {
+    font-size: var(--heading-size, 18px);
+  }
+
+  .d-contents nav a {
+    font-size: var(--contents-size, 13px);
+  }
+
+  /*-- APPENDIX --*/
+  d-appendix h3 {
+    font-size: var(--heading-size, 15px);
+    color: var(--heading-color, rgba(0, 0, 0, 0.65));
+  }
+
+  d-appendix {
+    font-size: var(--text-size, 0.8em);
+    color: var(--text-color, rgba(0, 0, 0, 0.5));
+  }
+
+  d-appendix d-footnote-list a.footnote-backlink {
+    color: var(--text-color, rgba(0, 0, 0, 0.5));
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  .distill-site-header .title {
+    font-size: var(--title-size, 18px);
+    font-family: var(--navbar-font), var(--heading-default);
+  }
+
+  .distill-site-header a,
+  .nav-dropdown .nav-dropbtn {
+    font-family: var(--navbar-font), var(--heading-default);
+  }
+
+  .nav-dropdown .nav-dropbtn {
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    font-size: var(--text-size, 15px);
+  }
+
+  .distill-site-header a:hover,
+  .nav-dropdown:hover .nav-dropbtn {
+    color: var(--hover-color, white);
+  }
+
+  .distill-site-header {
+    font-size: var(--text-size, 15px);
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    background-color: var(--bkgd-color, #0F2E3D);
+  }
+
+  .distill-site-footer {
+    font-size: var(--text-size, 15px);
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    background-color: var(--bkgd-color, #0F2E3D);
+  }
+
+  .distill-site-footer a:hover {
+    color: var(--hover-color, white);
+  }</style>
   <!--/radix_placeholder_distill-->
   <script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
@@ -2092,6 +2476,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <div class="nav-right">
 <a href="index.html">Home</a>
 <a href="about.html">About</a>
+<a href="index.xml">
+<i class="fa fa-rss" aria-hidden="true"></i>
+</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
@@ -2234,8 +2621,957 @@ function init_posts_list() {
 <div class="posts-container posts-with-sidebar posts-apply-limit l-screen-inset">
 <div class="posts-list">
 <h1 class="posts-list-caption" data-caption="Deciphering Life: One Bit at a Time">Deciphering Life: One Bit at a Time</h1>
+<a href="posts/2021-02-28-things-i-learned-about-distill/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["distill","blogdown","rmarkdown"]}</script>
+<div class="metadata">
+<div class="publishedDate">Feb. 28, 2021</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Things I Learned About distill</h2>
+<div class="dt-tags">
+<div class="dt-tag">distill</div>
+<div class="dt-tag">blogdown</div>
+<div class="dt-tag">rmarkdown</div>
+</div>
+<p>The various things I learned about the distill blog setup while converting posts over from my old blogdown site.</p>
+</div>
+</a>
+<a href="posts/2020-02-25-using-group-by-instead-of-splitting/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["R","dplyr","split","group-by","programming","development"]}</script>
+<div class="metadata">
+<div class="publishedDate">Feb. 25, 2020</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Using group_by Instead of Splits</h2>
+<div class="dt-tags">
+<div class="dt-tag">R</div>
+<div class="dt-tag">dplyr</div>
+<div class="dt-tag">split</div>
+<div class="dt-tag">group-by</div>
+<div class="dt-tag">programming</div>
+<div class="dt-tag">development</div>
+</div>
+<p>How to use group_by instead of split's to summarize things.</p>
+</div>
+</a>
+<a href="posts/2019-11-06-narrower-kable-tables/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["R","knitr","kable","learning","rmarkdown"]}</script>
+<div class="metadata">
+<div class="publishedDate">Nov. 6, 2019</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Narrower PDF Kable Tables</h2>
+<div class="dt-tags">
+<div class="dt-tag">R</div>
+<div class="dt-tag">knitr</div>
+<div class="dt-tag">kable</div>
+<div class="dt-tag">learning</div>
+<div class="dt-tag">rmarkdown</div>
+</div>
+<p>This is how you should make narrower kable tables in rmarkdown PDF documents.</p>
+</div>
+</a>
+<a href="posts/2019-10-23-introducing-scientific-programming/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["R","reproducibility","programming","academia"]}</script>
+<div class="metadata">
+<div class="publishedDate">Oct. 23, 2019</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Introducing Scientific Programming</h2>
+<div class="dt-tags">
+<div class="dt-tag">R</div>
+<div class="dt-tag">reproducibility</div>
+<div class="dt-tag">programming</div>
+<div class="dt-tag">academia</div>
+</div>
+<p>How and when should we get people in academia programming? What if we had a unified front across the science labs?</p>
+</div>
+</a>
+<a href="posts/2019-10-16-comments-enabled-via-utterances/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["blogdown","commenting","utterances"]}</script>
+<div class="metadata">
+<div class="publishedDate">Oct. 16, 2019</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Comments enabled via utterances</h2>
+<div class="dt-tags">
+<div class="dt-tag">blogdown</div>
+<div class="dt-tag">commenting</div>
+<div class="dt-tag">utterances</div>
+</div>
+<p>How I got utterances working on blogdown.</p>
+</div>
+</a>
+<a href="posts/2019-02-13-for-loops-vs-split/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["R","for-loop","split","purrr","development"]}</script>
+<div class="metadata">
+<div class="publishedDate">Feb. 13, 2019</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Comparisons using for loops vs split</h2>
+<div class="dt-tags">
+<div class="dt-tag">R</div>
+<div class="dt-tag">for-loop</div>
+<div class="dt-tag">split</div>
+<div class="dt-tag">purrr</div>
+<div class="dt-tag">development</div>
+</div>
+<p>for loops often hide much of the actual logic of your code because of all the necessary boilerplate of running a loop. split-ting your data can oftentimes be clearer, and faster.</p>
+</div>
+</a>
+<a href="posts/2018-12-06-nicer-png-graphics/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":[]}</script>
+<div class="metadata">
+<div class="publishedDate">Dec. 6, 2018</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/2018-12-06-nicer-png-graphics/nicer-png-graphics_files/figure-html5/first_image-1.png"/>
+</div>
+<div class="description">
+<h2>Nicer PNG Graphics</h2>
+<div class="dt-tags"></div>
+<p>Here are some tips for getting nicer graphics in your rmarkdown outputs.</p>
+</div>
+</a>
+<a href="posts/2018-09-14-don-t-do-pca-after-statistical-testing/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["pca","bioinformatics","R","t-test"]}</script>
+<div class="metadata">
+<div class="publishedDate">Sept. 14, 2018</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/2018-09-14-don-t-do-pca-after-statistical-testing/don-t-do-pca-after-statistical-testing_files/figure-html5/all_pca-1.png"/>
+</div>
+<div class="description">
+<h2>Don't do PCA After Statistical Testing!</h2>
+<div class="dt-tags">
+<div class="dt-tag">pca</div>
+<div class="dt-tag">bioinformatics</div>
+<div class="dt-tag">R</div>
+<div class="dt-tag">t-test</div>
+</div>
+<p>You might be tempted to do PCA after a statistical test. Read more to discover why this is a bad idea.</p>
+</div>
+</a>
+<a href="posts/2018-07-19-finding-modes-using-kernel-density-estimates/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["R","python","kernel-density","pdf","probability-density","programming"]}</script>
+<div class="metadata">
+<div class="publishedDate">July 19, 2018</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/2018-07-19-finding-modes-using-kernel-density-estimates/finding-modes-using-kernel-density-estimates_files/figure-html5/density_mode-1.png"/>
+</div>
+<div class="description">
+<h2>Finding Modes Using Kernel Density Estimates</h2>
+<div class="dt-tags">
+<div class="dt-tag">R</div>
+<div class="dt-tag">python</div>
+<div class="dt-tag">kernel-density</div>
+<div class="dt-tag">pdf</div>
+<div class="dt-tag">probability-density</div>
+<div class="dt-tag">programming</div>
+</div>
+<p>Examples of finding the mode of a univeriate distribution in R and Python.</p>
+</div>
+</a>
+<a href="posts/2018-07-17-split-unsplit-anti-pattern/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["R","development","programming","purrr","dplyr","join"]}</script>
+<div class="metadata">
+<div class="publishedDate">July 17, 2018</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Split - Unsplit Anti-Pattern</h2>
+<div class="dt-tags">
+<div class="dt-tag">R</div>
+<div class="dt-tag">development</div>
+<div class="dt-tag">programming</div>
+<div class="dt-tag">purrr</div>
+<div class="dt-tag">dplyr</div>
+<div class="dt-tag">join</div>
+</div>
+<p>Getting some speed using dplyr::join than my more intuitive split --&gt; unsplit pattern.</p>
+</div>
+</a>
+<a href="posts/2018-06-23-iranges-for-non-integer-overlaps/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["R","iranges","development","programming"]}</script>
+<div class="metadata">
+<div class="publishedDate">June 23, 2018</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/2018-06-23-iranges-for-non-integer-overlaps/iranges-for-non-integer-overlaps_files/figure-html5/difference_times-1.svg"/>
+</div>
+<div class="description">
+<h2>Using IRanges for Non-Integer Overlaps</h2>
+<div class="dt-tags">
+<div class="dt-tag">R</div>
+<div class="dt-tag">iranges</div>
+<div class="dt-tag">development</div>
+<div class="dt-tag">programming</div>
+</div>
+<p>I wanted to make use of IRanges awesome interval logic, but for non-integer data.</p>
+</div>
+</a>
+<a href="posts/2018-06-20-turn-roberts-beard-purple/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["alzheimers","fundraising"]}</script>
+<div class="metadata">
+<div class="publishedDate">June 20, 2018</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Turn Robert's Beard Purple!</h2>
+<div class="dt-tags">
+<div class="dt-tag">alzheimers</div>
+<div class="dt-tag">fundraising</div>
+</div>
+<p>I'm trying to raise money for the Walk for Alzheimer's, will you sponsor me?</p>
+</div>
+</a>
+<a href="posts/2018-02-19-knitrprogressbar/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["packages","R","development"]}</script>
+<div class="metadata">
+<div class="publishedDate">Feb. 19, 2018</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>knitrProgressBar Package</h2>
+<div class="dt-tags">
+<div class="dt-tag">packages</div>
+<div class="dt-tag">R</div>
+<div class="dt-tag">development</div>
+</div>
+<p>Ever wanted a progress bar output visible in a knitr document? Now you can!</p>
+</div>
+</a>
+<a href="posts/2018-02-14-licensing-r-packages-that-include-others-code/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["R","packages","open-science","licensing"]}</script>
+<div class="metadata">
+<div class="publishedDate">Feb. 14, 2018</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Licensing R Packages that Include Others Code</h2>
+<div class="dt-tags">
+<div class="dt-tag">R</div>
+<div class="dt-tag">packages</div>
+<div class="dt-tag">open-science</div>
+<div class="dt-tag">licensing</div>
+</div>
+<p>I wanted to include others code in my package, and couldn't find any good resources.</p>
+</div>
+</a>
+<a href="posts/2018-01-17-docopt-numeric-optoins/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["R","development","programming","docopt"]}</script>
+<div class="metadata">
+<div class="publishedDate">Jan. 17, 2018</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>docopt &amp; Numeric Options</h2>
+<div class="dt-tags">
+<div class="dt-tag">R</div>
+<div class="dt-tag">development</div>
+<div class="dt-tag">programming</div>
+<div class="dt-tag">docopt</div>
+</div>
+<p>Every input is a string in docopt. Every Input!!</p>
+</div>
+</a>
+<a href="posts/2017-12-27-custom-deployment-script/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["R","blogdown","development"]}</script>
+<div class="metadata">
+<div class="publishedDate">Dec. 27, 2017</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Custom Deployment Script</h2>
+<div class="dt-tags">
+<div class="dt-tag">R</div>
+<div class="dt-tag">blogdown</div>
+<div class="dt-tag">development</div>
+</div>
+<p>I don't want to use Netlify for hosting, so I came up with this simple script to deploy my blog.</p>
+</div>
+</a>
+<a href="posts/2017-12-27-differences-in-posted-date-vs-sessioninfo/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["development","blogdown"]}</script>
+<div class="metadata">
+<div class="publishedDate">Dec. 27, 2017</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Differences in Posted Date vs sessionInfo()</h2>
+<div class="dt-tags">
+<div class="dt-tag">development</div>
+<div class="dt-tag">blogdown</div>
+</div>
+<p>If you see differences in the sessionInfo output and the date the post was published, this is why.</p>
+</div>
+</a>
+<a href="posts/2017-12-27-linking-to-manually-inserted-images-in-hugo/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["hugo","R","blogdown"]}</script>
+<div class="metadata">
+<div class="publishedDate">Dec. 27, 2017</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Linking to Manually Inserted Images in Blogdown / Hugo</h2>
+<div class="dt-tags">
+<div class="dt-tag">hugo</div>
+<div class="dt-tag">R</div>
+<div class="dt-tag">blogdown</div>
+</div>
+<p>This is my method to include something manually in a blogdown post.</p>
+</div>
+</a>
+<a href="posts/2017-10-18-i-was-part-of-the-problem/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["metoo","academia"]}</script>
+<div class="metadata">
+<div class="publishedDate">Oct. 18, 2017</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>I was Part of the Problem</h2>
+<div class="dt-tags">
+<div class="dt-tag">metoo</div>
+<div class="dt-tag">academia</div>
+</div>
+<p>Why do so many men think it's OK to lavish unwanted attention on women who don't want it?</p>
+</div>
+</a>
+<a href="posts/2017-03-29-criticizing-a-publication-and-lying-about-it/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["publications","peer-review","zinc","academia"]}</script>
+<div class="metadata">
+<div class="publishedDate">March 29, 2017</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Criticizing a Publication, and Lying About It</h2>
+<div class="dt-tags">
+<div class="dt-tag">publications</div>
+<div class="dt-tag">peer-review</div>
+<div class="dt-tag">zinc</div>
+<div class="dt-tag">academia</div>
+</div>
+<p>Critics of our last publication claimed we didn't make our data available, which is an outright lie.</p>
+</div>
+</a>
+<a href="posts/2016-03-23-authentication-of-key-resources-for-data-analysis/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["reproducibility","open-science","analysis"]}</script>
+<div class="metadata">
+<div class="publishedDate">March 23, 2016</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/2016-03-23-authentication-of-key-resources-for-data-analysis/yeast_48rep_cor_heatmap.jpg"/>
+</div>
+<div class="description">
+<h2>Authentication of Key Resources for Data Analysis</h2>
+<div class="dt-tags">
+<div class="dt-tag">reproducibility</div>
+<div class="dt-tag">open-science</div>
+<div class="dt-tag">analysis</div>
+</div>
+<p>NIH is asking for authentication of key resources. How does this apply to data analyses?</p>
+</div>
+</a>
+<a href="posts/2015-12-12-random-forest-vs-pls-on-random-data/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["random-forest","machine-learning","partial-least-squares","statistics","analysis"]}</script>
+<div class="metadata">
+<div class="publishedDate">Dec. 12, 2015</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/2015-12-12-random-forest-vs-pls-on-random-data/random-forest-vs-pls-on-random-data_files/figure-html5/plot_initial-1.png"/>
+</div>
+<div class="description">
+<h2>Random Forest vs PLS on Random Data</h2>
+<div class="dt-tags">
+<div class="dt-tag">random-forest</div>
+<div class="dt-tag">machine-learning</div>
+<div class="dt-tag">partial-least-squares</div>
+<div class="dt-tag">statistics</div>
+<div class="dt-tag">analysis</div>
+</div>
+<p>Comparing random-forest and partial-least-squares discriminant-analysis on random data to show the problems inherent in PLS-DA.</p>
+</div>
+</a>
+<a href="posts/2015-06-17-novel-zinc-coordination-geometries/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["zinc","structural-biochemistry","open-science","reproducibility","visualization","publications"]}</script>
+<div class="metadata">
+<div class="publishedDate">June 17, 2015</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/2015-06-17-novel-zinc-coordination-geometries/prot24834-fig-0002.png"/>
+</div>
+<div class="description">
+<h2>Novel Zinc Coordination Geometries</h2>
+<div class="dt-tags">
+<div class="dt-tag">zinc</div>
+<div class="dt-tag">structural-biochemistry</div>
+<div class="dt-tag">open-science</div>
+<div class="dt-tag">reproducibility</div>
+<div class="dt-tag">visualization</div>
+<div class="dt-tag">publications</div>
+</div>
+<p>A bit of an explainer on our labs recent publication on finding and classifying zinc coordination geometries in protein structures.</p>
+</div>
+</a>
+<a href="posts/2015-06-01-mouse-human-transcriptomics-and-batch-effects/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["open-science","transcriptomics","batch-effects","publications","peer-review"]}</script>
+<div class="metadata">
+<div class="publishedDate">June 1, 2015</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/2015-06-01-mouse-human-transcriptomics-and-batch-effects/slin_table1part2.jpg"/>
+</div>
+<div class="description">
+<h2>Mouse / Human Transcriptomics and Batch Effects</h2>
+<div class="dt-tags">
+<div class="dt-tag">open-science</div>
+<div class="dt-tag">transcriptomics</div>
+<div class="dt-tag">batch-effects</div>
+<div class="dt-tag">publications</div>
+<div class="dt-tag">peer-review</div>
+</div>
+<p>A recent paper dug into some data from another paper, casting doubts on the first, all thanks to the data being available.</p>
+</div>
+</a>
+<a href="posts/2015-03-25-first-open-post-publication-peer-review-with-credit/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["open-science","peer-review","publications"]}</script>
+<div class="metadata">
+<div class="publishedDate">March 25, 2015</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>First Open Post-Publication Peer Review, with Credit!</h2>
+<div class="dt-tags">
+<div class="dt-tag">open-science</div>
+<div class="dt-tag">peer-review</div>
+<div class="dt-tag">publications</div>
+</div>
+<p>A story about my first open peer-review.</p>
+</div>
+</a>
+<a href="posts/2014-12-31-being-a-phd-student-and-post-doc-with-migraines/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["phdisabled","migraines","academia"]}</script>
+<div class="metadata">
+<div class="publishedDate">Dec. 31, 2014</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Being a PhD Student and Post-Doc with Migraines</h2>
+<div class="dt-tags">
+<div class="dt-tag">phdisabled</div>
+<div class="dt-tag">migraines</div>
+<div class="dt-tag">academia</div>
+</div>
+<p>What it's like having migraines as a PhD student and PostDoc.</p>
+</div>
+</a>
+<a href="posts/2014-11-05-travis-ci-to-github-pages/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["R","reproducibility","travis-ci","github","publishing"]}</script>
+<div class="metadata">
+<div class="publishedDate">Nov. 5, 2014</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Travis-CI to GitHub Pages</h2>
+<div class="dt-tags">
+<div class="dt-tag">R</div>
+<div class="dt-tag">reproducibility</div>
+<div class="dt-tag">travis-ci</div>
+<div class="dt-tag">github</div>
+<div class="dt-tag">publishing</div>
+</div>
+<p>How I automatically have some stuff get pushed to GitHub pages from a Travis CI job.</p>
+</div>
+</a>
+<a href="posts/2014-08-08-my-career-goals/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["post-doc","career","academia"]}</script>
+<div class="metadata">
+<div class="publishedDate">Aug. 8, 2014</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>My Career Goals</h2>
+<div class="dt-tags">
+<div class="dt-tag">post-doc</div>
+<div class="dt-tag">career</div>
+<div class="dt-tag">academia</div>
+</div>
+<p>I don't want to be a lab PI, but I want to stay in academia.</p>
+</div>
+</a>
+<a href="posts/2014-07-28-analyses-as-packages/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["R","development","packages","vignettes","programming","analysis"]}</script>
+<div class="metadata">
+<div class="publishedDate">July 28, 2014</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Analyses as Packages</h2>
+<div class="dt-tags">
+<div class="dt-tag">R</div>
+<div class="dt-tag">development</div>
+<div class="dt-tag">packages</div>
+<div class="dt-tag">vignettes</div>
+<div class="dt-tag">programming</div>
+<div class="dt-tag">analysis</div>
+</div>
+<p>Why I think packages make good ways to structure an analysis.</p>
+</div>
+</a>
+<a href="posts/2014-07-28-creating-an-analysis-as-a-package-and-vignette/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["R","development","packages","vignettes","analysis","programming"]}</script>
+<div class="metadata">
+<div class="publishedDate">July 28, 2014</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Creating an Analysis as a Package and Vignette</h2>
+<div class="dt-tags">
+<div class="dt-tag">R</div>
+<div class="dt-tag">development</div>
+<div class="dt-tag">packages</div>
+<div class="dt-tag">vignettes</div>
+<div class="dt-tag">analysis</div>
+<div class="dt-tag">programming</div>
+</div>
+<p>A walkthrough creating an analysis project as a package.</p>
+</div>
+</a>
+<a href="posts/2014-07-28-packages-vs-projecttemplate/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["R","packages","analysis","development"]}</script>
+<div class="metadata">
+<div class="publishedDate">July 28, 2014</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Packages vs ProjectTemplate</h2>
+<div class="dt-tags">
+<div class="dt-tag">R</div>
+<div class="dt-tag">packages</div>
+<div class="dt-tag">analysis</div>
+<div class="dt-tag">development</div>
+</div>
+<p>Why I think packages are better than the projectTemplate package.</p>
+</div>
+</a>
+<a href="posts/2014-06-19-researcher-discoverability/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["github","open-science","academia","research"]}</script>
+<div class="metadata">
+<div class="publishedDate">June 19, 2014</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Researcher Discoverability</h2>
+<div class="dt-tags">
+<div class="dt-tag">github</div>
+<div class="dt-tag">open-science</div>
+<div class="dt-tag">academia</div>
+<div class="dt-tag">research</div>
+</div>
+<p>Why do we need corporate products to enhance "researcher discoverability"?</p>
+</div>
+</a>
+<a href="posts/2014-06-05-bioinformatics-presentations-that-lack-results-or-biological-relevance/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["bioinformatics","academia","research"]}</script>
+<div class="metadata">
+<div class="publishedDate">June 5, 2014</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Bioinformatics Presentations that Lack Results (or Biological Relevance)</h2>
+<div class="dt-tags">
+<div class="dt-tag">bioinformatics</div>
+<div class="dt-tag">academia</div>
+<div class="dt-tag">research</div>
+</div>
+<p>Why do people have bionformatics presentations lacking relevance or results?</p>
+</div>
+</a>
+<a href="posts/2014-04-08-categorycompare-paper-finally-out/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["R","bioconductor","meta-analysis","publications","git","github","open-science","visualization","annotation-enrichment"]}</script>
+<div class="metadata">
+<div class="publishedDate">April 8, 2014</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>categoryCompare Paper Finally Out!</h2>
+<div class="dt-tags">
+<div class="dt-tag">R</div>
+<div class="dt-tag">bioconductor</div>
+<div class="dt-tag">meta-analysis</div>
+<div class="dt-tag">publications</div>
+<div class="dt-tag">git</div>
+<div class="dt-tag">github</div>
+<div class="dt-tag">open-science</div>
+<div class="dt-tag">visualization</div>
+<div class="dt-tag">annotation-enrichment</div>
+</div>
+<p>My first first author publication since starting my PostDoc is finally out, about my meta-annotation-enrichment software package categoyrCompare.</p>
+</div>
+</a>
+<a href="posts/2014-02-20-self-written-function-help/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["R","packages","documentation","development","devtools","roxygen2","docstrings"]}</script>
+<div class="metadata">
+<div class="publishedDate">Feb. 20, 2014</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Self-Written Function Help</h2>
+<div class="dt-tags">
+<div class="dt-tag">R</div>
+<div class="dt-tag">packages</div>
+<div class="dt-tag">documentation</div>
+<div class="dt-tag">development</div>
+<div class="dt-tag">devtools</div>
+<div class="dt-tag">roxygen2</div>
+<div class="dt-tag">docstrings</div>
+</div>
+<p>Do you want to be able to read function documentation for your own functions? Make your own package.</p>
+</div>
+</a>
+<a href="posts/2014-02-10-installing-matlab-vs-installing-r/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["MatLab","R"]}</script>
+<div class="metadata">
+<div class="publishedDate">Feb. 10, 2014</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Installing MatLab vs Installing R</h2>
+<div class="dt-tags">
+<div class="dt-tag">MatLab</div>
+<div class="dt-tag">R</div>
+</div>
+<p>Personal frustrations around installing MatLab led to this particular rant.</p>
+</div>
+</a>
+<a href="posts/2014-02-07-package-version-increment-pre-and-post-commit-hooks/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["R","git","packages","development","programming"]}</script>
+<div class="metadata">
+<div class="publishedDate">Feb. 7, 2014</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Package Version Increment Pre- and Post-Commit Hooks</h2>
+<div class="dt-tags">
+<div class="dt-tag">R</div>
+<div class="dt-tag">git</div>
+<div class="dt-tag">packages</div>
+<div class="dt-tag">development</div>
+<div class="dt-tag">programming</div>
+</div>
+<p>Two git commit hooks for incrementing the package version as part of commits.</p>
+</div>
+</a>
+<a href="posts/2014-01-28-motivated-learning/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["learning","software-carpentry","git","calculus"]}</script>
+<div class="metadata">
+<div class="publishedDate">Jan. 28, 2014</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Motivated Learning</h2>
+<div class="dt-tags">
+<div class="dt-tag">learning</div>
+<div class="dt-tag">software-carpentry</div>
+<div class="dt-tag">git</div>
+<div class="dt-tag">calculus</div>
+</div>
+<p>Two personal stories on times I was very motivated to learn, as part of my Software-Carpentry instructor training.</p>
+</div>
+</a>
+<a href="posts/2013-10-22-pubmedcommons-api/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["open-science","pubmed"]}</script>
+<div class="metadata">
+<div class="publishedDate">Oct. 22, 2013</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>PubmedCommons API</h2>
+<div class="dt-tags">
+<div class="dt-tag">open-science</div>
+<div class="dt-tag">pubmed</div>
+</div>
+<p>Pubmed commons is a new commenting system for pubmed articles.</p>
+</div>
+</a>
+<a href="posts/2013-10-21-open-vs-closed-analysis-languages/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["open-science","R","python","MatLab","programming","development"]}</script>
+<div class="metadata">
+<div class="publishedDate">Oct. 21, 2013</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Open vs Closed Analysis Languages</h2>
+<div class="dt-tags">
+<div class="dt-tag">open-science</div>
+<div class="dt-tag">R</div>
+<div class="dt-tag">python</div>
+<div class="dt-tag">MatLab</div>
+<div class="dt-tag">programming</div>
+<div class="dt-tag">development</div>
+</div>
+<p>Talking about R &amp; Python vs MatLab as examples of open and closed data analysis languages.</p>
+</div>
+</a>
+<a href="posts/2013-10-17-pre-calculating-large-tables-of-values/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["R","pre-calulations","programming","development","c++"]}</script>
+<div class="metadata">
+<div class="publishedDate">Oct. 17, 2013</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/2013-10-17-pre-calculating-large-tables-of-values/pre-calculating-large-tables-of-numbers_files/figure-html5/genRandomData-1.png"/>
+</div>
+<div class="description">
+<h2>Pre-Calculating Large Tables of Values</h2>
+<div class="dt-tags">
+<div class="dt-tag">R</div>
+<div class="dt-tag">pre-calulations</div>
+<div class="dt-tag">programming</div>
+<div class="dt-tag">development</div>
+<div class="dt-tag">c++</div>
+</div>
+<p>Demonstrating a way to generate a large amount of numbers that otherwise might take a long time to calculate.</p>
+</div>
+</a>
+<a href="posts/2013-09-23-portable-peronal-packages/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["R","packages","development"]}</script>
+<div class="metadata">
+<div class="publishedDate">Sept. 23, 2013</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Portable, Personal Packages</h2>
+<div class="dt-tags">
+<div class="dt-tag">R</div>
+<div class="dt-tag">packages</div>
+<div class="dt-tag">development</div>
+</div>
+<p>My take on creating simple little packages for your own commonly used functions.</p>
+</div>
+</a>
+<a href="posts/2013-09-19-k-12-wants-scientists/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["post-doc","academia","science","teaching"]}</script>
+<div class="metadata">
+<div class="publishedDate">Sept. 19, 2013</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>K-12 Wants Scientists!!</h2>
+<div class="dt-tags">
+<div class="dt-tag">post-doc</div>
+<div class="dt-tag">academia</div>
+<div class="dt-tag">science</div>
+<div class="dt-tag">teaching</div>
+</div>
+<p>I recently attended a talk about PhD scientists in grade school teaching.</p>
+</div>
+</a>
 <a href="posts/2013-09-17-r-rstudio-and-release-and-dev-bioconductor/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["R","bioconductor","rstudio"]}</script>
+<script class="post-metadata" type="text/json">{"categories":["R","bioconductor","rstudio","programming","packages","development"]}</script>
 <div class="metadata">
 <div class="publishedDate">Sept. 17, 2013</div>
 <div class="dt-authors">
@@ -2251,12 +3587,15 @@ function init_posts_list() {
 <div class="dt-tag">R</div>
 <div class="dt-tag">bioconductor</div>
 <div class="dt-tag">rstudio</div>
+<div class="dt-tag">programming</div>
+<div class="dt-tag">packages</div>
+<div class="dt-tag">development</div>
 </div>
 <p>Working with the development version of Bioconductor on linux can be a pain. This is one way to do it.</p>
 </div>
 </a>
 <a href="posts/2013-08-16-reproducible-methods/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["open-science","reproducibility"]}</script>
+<script class="post-metadata" type="text/json">{"categories":["open-science","reproducibility","bioinformatics"]}</script>
 <div class="metadata">
 <div class="publishedDate">Aug. 16, 2013</div>
 <div class="dt-authors">
@@ -2271,6 +3610,7 @@ function init_posts_list() {
 <div class="dt-tags">
 <div class="dt-tag">open-science</div>
 <div class="dt-tag">reproducibility</div>
+<div class="dt-tag">bioinformatics</div>
 </div>
 <p>A short missive on reproducibility, especially within computational work.</p>
 </div>
@@ -2317,7 +3657,7 @@ function init_posts_list() {
 </div>
 </a>
 <a href="posts/2013-05-10-writing-up-scientific-results-and-literate-programming/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["literate-programming"]}</script>
+<script class="post-metadata" type="text/json">{"categories":["literate-programming","academia","notebooks","reproducibility"]}</script>
 <div class="metadata">
 <div class="publishedDate">May 10, 2013</div>
 <div class="dt-authors">
@@ -2331,12 +3671,15 @@ function init_posts_list() {
 <h2>Writing Up Scientific Results and Literate Programming</h2>
 <div class="dt-tags">
 <div class="dt-tag">literate-programming</div>
+<div class="dt-tag">academia</div>
+<div class="dt-tag">notebooks</div>
+<div class="dt-tag">reproducibility</div>
 </div>
 <p>My thoughts on using literate programming to investigate and report scientific results</p>
 </div>
 </a>
 <a href="posts/2012-10-09-writing-papers-using-r-markdown/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["R","open-science","reproducibility"]}</script>
+<script class="post-metadata" type="text/json">{"categories":["R","open-science","reproducibility","literate-programming","rmarkdown"]}</script>
 <div class="metadata">
 <div class="publishedDate">Oct. 9, 2012</div>
 <div class="dt-authors">
@@ -2352,6 +3695,8 @@ function init_posts_list() {
 <div class="dt-tag">R</div>
 <div class="dt-tag">open-science</div>
 <div class="dt-tag">reproducibility</div>
+<div class="dt-tag">literate-programming</div>
+<div class="dt-tag">rmarkdown</div>
 </div>
 <p>How I used RMarkdown to write a manuscript</p>
 </div>
@@ -2376,7 +3721,7 @@ function init_posts_list() {
 </div>
 </a>
 <a href="posts/2012-07-13-creating-custom-cdf-s-for-affymetrix-chips-in-bioconductor/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["R","bioconductor","cdf"]}</script>
+<script class="post-metadata" type="text/json">{"categories":["R","bioconductor","bioinformatics","cdf","affymetrix","microarray"]}</script>
 <div class="metadata">
 <div class="publishedDate">July 13, 2012</div>
 <div class="dt-authors">
@@ -2387,13 +3732,16 @@ function init_posts_list() {
 <img/>
 </div>
 <div class="description">
-<h2>Creating Custom CDF's for Affymetrix Chips in Bioconductor</h2>
+<h2>Creating Custom CDFs for Affymetrix Chips in Bioconductor</h2>
 <div class="dt-tags">
 <div class="dt-tag">R</div>
 <div class="dt-tag">bioconductor</div>
+<div class="dt-tag">bioinformatics</div>
 <div class="dt-tag">cdf</div>
+<div class="dt-tag">affymetrix</div>
+<div class="dt-tag">microarray</div>
 </div>
-<p>Examples of messing with Affymetrix CDF data in bioconductor.</p>
+<p>Examples of messing with Affymetrix CDF data in Bioconductor.</p>
 </div>
 </a>
 </div>
@@ -2403,14 +3751,122 @@ function init_posts_list() {
 <ul>
 <li>
 <a href="#category:Articles">Articles</a>
-<span class="category-count">(8)</span>
+<span class="category-count">(51)</span>
+</li>
+<li>
+<a href="#category:academia">academia</a>
+<span class="category-count">(9)</span>
+</li>
+<li>
+<a href="#category:affymetrix">affymetrix</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:alzheimers">alzheimers</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:analysis">analysis</a>
+<span class="category-count">(5)</span>
+</li>
+<li>
+<a href="#category:annotation-enrichment">annotation-enrichment</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:batch-effects">batch-effects</a>
+<span class="category-count">(1)</span>
 </li>
 <li>
 <a href="#category:bioconductor">bioconductor</a>
-<span class="category-count">(2)</span>
+<span class="category-count">(3)</span>
+</li>
+<li>
+<a href="#category:bioinformatics">bioinformatics</a>
+<span class="category-count">(4)</span>
+</li>
+<li>
+<a href="#category:blogdown">blogdown</a>
+<span class="category-count">(5)</span>
+</li>
+<li>
+<a href="#category:c++">c++</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:calculus">calculus</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:career">career</a>
+<span class="category-count">(1)</span>
 </li>
 <li>
 <a href="#category:cdf">cdf</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:commenting">commenting</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:development">development</a>
+<span class="category-count">(17)</span>
+</li>
+<li>
+<a href="#category:devtools">devtools</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:distill">distill</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:docopt">docopt</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:docstrings">docstrings</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:documentation">documentation</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:dplyr">dplyr</a>
+<span class="category-count">(2)</span>
+</li>
+<li>
+<a href="#category:for-loop">for-loop</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:fundraising">fundraising</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:git">git</a>
+<span class="category-count">(3)</span>
+</li>
+<li>
+<a href="#category:github">github</a>
+<span class="category-count">(3)</span>
+</li>
+<li>
+<a href="#category:group-by">group-by</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:hugo">hugo</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:iranges">iranges</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:join">join</a>
 <span class="category-count">(1)</span>
 </li>
 <li>
@@ -2418,36 +3874,200 @@ function init_posts_list() {
 <span class="category-count">(1)</span>
 </li>
 <li>
+<a href="#category:kable">kable</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:kernel-density">kernel-density</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:knitr">knitr</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:learning">learning</a>
+<span class="category-count">(2)</span>
+</li>
+<li>
+<a href="#category:licensing">licensing</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
 <a href="#category:literate-programming">literate-programming</a>
+<span class="category-count">(2)</span>
+</li>
+<li>
+<a href="#category:machine-learning">machine-learning</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:MatLab">MatLab</a>
+<span class="category-count">(2)</span>
+</li>
+<li>
+<a href="#category:meta-analysis">meta-analysis</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:metoo">metoo</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:microarray">microarray</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:migraines">migraines</a>
 <span class="category-count">(1)</span>
 </li>
 <li>
 <a href="#category:notebooks">notebooks</a>
-<span class="category-count">(1)</span>
+<span class="category-count">(2)</span>
 </li>
 <li>
 <a href="#category:open-science">open-science</a>
-<span class="category-count">(2)</span>
+<span class="category-count">(11)</span>
 </li>
 <li>
 <a href="#category:packages">packages</a>
+<span class="category-count">(10)</span>
+</li>
+<li>
+<a href="#category:partial-least-squares">partial-least-squares</a>
 <span class="category-count">(1)</span>
 </li>
 <li>
-<a href="#category:R">R</a>
+<a href="#category:pca">pca</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:pdf">pdf</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:peer-review">peer-review</a>
+<span class="category-count">(3)</span>
+</li>
+<li>
+<a href="#category:phdisabled">phdisabled</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:post-doc">post-doc</a>
+<span class="category-count">(2)</span>
+</li>
+<li>
+<a href="#category:pre-calulations">pre-calulations</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:probability-density">probability-density</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:programming">programming</a>
+<span class="category-count">(12)</span>
+</li>
+<li>
+<a href="#category:publications">publications</a>
 <span class="category-count">(5)</span>
 </li>
 <li>
-<a href="#category:reproducibility">reproducibility</a>
+<a href="#category:publishing">publishing</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:pubmed">pubmed</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:purrr">purrr</a>
 <span class="category-count">(2)</span>
+</li>
+<li>
+<a href="#category:python">python</a>
+<span class="category-count">(2)</span>
+</li>
+<li>
+<a href="#category:R">R</a>
+<span class="category-count">(29)</span>
+</li>
+<li>
+<a href="#category:random-forest">random-forest</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:reproducibility">reproducibility</a>
+<span class="category-count">(7)</span>
+</li>
+<li>
+<a href="#category:research">research</a>
+<span class="category-count">(2)</span>
+</li>
+<li>
+<a href="#category:rmarkdown">rmarkdown</a>
+<span class="category-count">(3)</span>
+</li>
+<li>
+<a href="#category:roxygen2">roxygen2</a>
+<span class="category-count">(1)</span>
 </li>
 <li>
 <a href="#category:rstudio">rstudio</a>
 <span class="category-count">(1)</span>
 </li>
 <li>
-<a href="#category:teaching">teaching</a>
+<a href="#category:science">science</a>
 <span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:software-carpentry">software-carpentry</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:split">split</a>
+<span class="category-count">(2)</span>
+</li>
+<li>
+<a href="#category:statistics">statistics</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:structural-biochemistry">structural-biochemistry</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:t-test">t-test</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:teaching">teaching</a>
+<span class="category-count">(2)</span>
+</li>
+<li>
+<a href="#category:transcriptomics">transcriptomics</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:travis-ci">travis-ci</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:utterances">utterances</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:vignettes">vignettes</a>
+<span class="category-count">(2)</span>
+</li>
+<li>
+<a href="#category:visualization">visualization</a>
+<span class="category-count">(2)</span>
+</li>
+<li>
+<a href="#category:zinc">zinc</a>
+<span class="category-count">(2)</span>
 </li>
 </ul>
 </div>
@@ -2479,7 +4099,12 @@ function init_posts_list() {
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->
 <!--radix_placeholder_appendices-->
-<div class="appendix-bottom"></div>
+<div class="appendix-bottom">
+<h3 id="updates-and-corrections">Corrections</h3>
+<p>If you see mistakes or want to suggest changes, please <a href="https://github.com/rmflight/blog/issues/new">create an issue</a> on the source repository.</p>
+<h3 id="reuse">Reuse</h3>
+<p>Text and figures are licensed under Creative Commons Attribution <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Source code is available at <a href="https://github.com/rmflight/blog">https://github.com/rmflight/blog</a>, unless otherwise noted. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".</p>
+</div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
 <!--/radix_placeholder_navigation_after_body-->

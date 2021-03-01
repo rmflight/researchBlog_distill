@@ -1,0 +1,29 @@
+name: "researchBlog_distill"
+title: "Deciphering Life: One Bit at a Time"
+description: |
+  Musings on R, programming, -omics, open science, and whatever.
+base_url: https://rmflight.github.io/
+output_dir: "docs"
+theme: rmflight.css
+collections:
+  posts:
+    share: [twitter, linkedin, pinterest, facebook]
+    feed_items_max: false
+navbar:
+  search: true
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - icon: fa fa-rss
+      href: index.xml
+creative_commons: CC BY
+repository_url: https://github.com/rmflight/researchBlog_distill
+twitter:
+  site: "@rmflight"
+  creator: "@rmflight"
+output:
+  distill::distill_article:
+    includes:
+      in_header: utterances.html

@@ -1,0 +1,5 @@
+---
+title: "Deciphering Life: One Bit at a Time"
+site: distill::distill_website
+listing: posts
+---
