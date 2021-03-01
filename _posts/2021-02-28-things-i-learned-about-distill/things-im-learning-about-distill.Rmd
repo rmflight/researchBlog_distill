@@ -18,10 +18,6 @@ categories:
 ---
 
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-
 ## Converting From Blogdown
 
 So I converted this site to use [distill](https://blog.rstudio.com/2020/12/07/distill/) from my previous [blogdown](https://bookdown.org/yihui/blogdown/) site.
@@ -37,7 +33,7 @@ So I first used {blogdown} to convert my old blog directory to a bundled version
 I then wrote a script to create the new directories based on the bundled ones, and then copy the old `index.Rmd` to the new direcotry with the proper name.
 I also decided I wanted to add a `refs.bib` to each directory so there was no friction in setting up references.
 
-```{r copy_script}
+```{r copy_script, eval = FALSE}
 new_post_dir = "~/Projects/personal/researchBlog_distill/_posts"
 old_post_dir = "~/Projects/personal/researchBlog_blogdown_convertFolders-bundle/content/post"
 
