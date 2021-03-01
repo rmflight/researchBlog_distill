@@ -1,0 +1,19 @@
+---
+title: Where I Am From
+author: Robert M Flight
+date: '2021-01-24'
+slug: []
+categories: []
+tags:
+  - career
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+## TL;DR
+
+Most people seem to move around during their academic years, I moved around a lot as a young child.
+Therefore, asking where I am from always feels like a loaded question.
+
