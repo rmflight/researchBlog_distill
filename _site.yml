@@ -18,6 +18,7 @@ navbar:
       href: about.html
     - icon: fa fa-rss
       href: index.xml
+  source_url: true
 creative_commons: CC BY
 repository_url: https://github.com/rmflight/researchBlog_distill
 twitter:
