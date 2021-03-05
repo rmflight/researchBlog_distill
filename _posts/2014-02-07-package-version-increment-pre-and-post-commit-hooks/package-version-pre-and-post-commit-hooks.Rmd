@@ -8,6 +8,7 @@ categories:
   - packages
   - development
   - programming
+  - random-code-snippets
 description: |
   Two git commit hooks for incrementing the package version as part of commits.
 output:

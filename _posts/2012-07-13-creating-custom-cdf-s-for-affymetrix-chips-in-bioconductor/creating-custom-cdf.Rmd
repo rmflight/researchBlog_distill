@@ -16,6 +16,7 @@ categories:
   - cdf
   - affymetrix
   - microarray
+  - random-code-snippets
 ---
 
 ```{r knitrOpts, echo=FALSE}

@@ -6,6 +6,7 @@ categories:
   - R
   - blogdown
   - development
+  - random-code-snippets
 description: |
   I don't want to use Netlify for hosting, so I came up with this simple script to deploy my blog.
 output:
