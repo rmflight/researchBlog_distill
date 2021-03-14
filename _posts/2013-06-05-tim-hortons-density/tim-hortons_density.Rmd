@@ -1,13 +1,18 @@
 ---
-title: Tim Hortons Density
+title: "Tim Hortons Density"
 author: Robert M Flight
-date: '2013-06-05'
-slug: tim-hortons-density
-categories: []
-tags:
+date: 2013-06-05
+categories:
   - R
   - mapping
   - tim-hortons
+description: |
+  How far away are most Canadians from a Tim Hortons?
+output:
+  distill::distill_article:
+    self_contained: false
+    highlight: breezedark
+    toc: true
 ---
 
 Inspired by this [post](http://www.ifweassume.com/2012/10/the-united-states-of-starbucks.html), I wanted to examine the locations and density of Tim Hortons restaurants in Canada. Using Stats Canada data, each census tract is queried on Foursquare for Tims locations.
@@ -133,7 +138,7 @@ save(timsLocs, .timedate, .sessionInfo, file="../timmysData/timsLocs.RData", com
 
 ### Put them on a map
 
-```{r mapIt, fig.ext="png", dev="CairoPNG"}
+```{r mapIt, eval = FALSE}
 data(timsLocs)
 data(areaDataFile)
 canada <- map_data("world", "canada")
@@ -154,11 +159,15 @@ p2 <- p + geom_point(data=timsLocs[,c("lat", "long")], aes(x=long, y=lat), colou
 print(p2)
 ```
 
+```{r map_data, echo = FALSE}
+knitr::include_graphics("mapIt-1.png")
+```
+
 ### How far??
 
 And now lets also calculate the minimum distance of a given DA from Timmys locations.
 
-```{r maxDistance}
+```{r maxDistance, eval = FALSE}
 queryLocs <- matrix(c(timsLocs$long, timsLocs$lat), nrow=nrow(timsLocs), ncol=2, byrow=F) # these are the tims locations
 distLocs <- matrix(c(areaData$long, areaData$lat), nrow=nrow(areaData), ncol=2, byrow=F) # the census centers
 allDists <- apply(queryLocs, 1, function(x){
@@ -166,9 +175,10 @@ allDists <- apply(queryLocs, 1, function(x){
 })
 ```
 
+
 From the `allDists` variable above, we can determine that the maximum distance any census dissemination area (DA) is from a Tim Hortons is 51.5 km (`r 51.5*0.621` miles). This is based on distances calculated "as the crow flies", but still, that is pretty close. Assuming roads, the furthest a Canadian should have to travel is less than an hour to get their Timmys fix. 
 
-```{r percPopulation}
+```{r percPopulation, eval = FALSE}
 totPopulation <- sum(areaData$pop, na.rm=T)
 lessDist <- seq(50, 51.6 * 1000, 50) # distances are in meters, so multiply by 1000 to get reasonable km
 
@@ -180,6 +190,11 @@ percPop <- sapply(lessDist, function(inDist){
 plotDistPerc <- data.frame(distance=lessDist, population=percPop, logDist=log10(lessDist))
 ggplot(plotDistPerc, aes(x=logDist, y=population)) + geom_point() + xlab("Log10 Distance") + ylab("% Population")
 ```
+
+```{r percentage_pop, echo = FALSE}
+knitr::include_graphics("percPopulation-1.png")
+```
+
 
 What gets really interesting, is how much of the population lives within a given distance of a Timmys. By summing up the percentage of the population within given distances. The plot above shows that 50% of the population is within `r 10^2.5` **meters** of a Tim Hortons location. 
 
@@ -206,14 +221,3 @@ This work exists as the vignette of [`timmysDensity`](https://github.com/rmfligh
 
 Tim Hortons was not involved in the creation or preparation of this work. I am not regularly updating the location information obtained from Foursquare, it is only valid for May 31, 2013. All code used in preparing these results was written by me, except in the case where code from other `R` packages was used. All opinions and conclusions are my own, and do not reflect the views of anyone else or any institution I may be associated with.
 
-## Other information when this vignette was generated
-
-### Session Info
-```{r sessionInfo}
-sessionInfo()
-```
-
-### Time and Date
-```{r timeDate}
-Sys.time()
-```
