@@ -32,10 +32,11 @@ I'm detailing my process here, because I tried to organize it in a bit of a diff
 You can check out the code on GitHub [@rmflightmap2020] and see how it's organized.
 
 A short list of what you need for this project:
-  * A region of interest with mapped roads in OpenStreetMap
-  * A list of starting locations and ending locations that the shortest route is easily findable.
-    * Esteban and I used Google Maps takeout data.
-    * My spouse and I have location data from when we started using Google phones back in August of 2016.
+
+* A region of interest with mapped roads in OpenStreetMap
+* A list of starting locations and ending locations that the shortest route is easily findable.
+  * Esteban and I used Google Maps takeout data.
+  * My spouse and I have location data from when we started using Google phones back in August of 2016.
 
 ## Decide on a Size
 
