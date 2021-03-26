@@ -1526,7 +1526,7 @@ code span.wa { color: #da4453; } /* Warning */
         row_title <span class='op'>=</span> <span class='cn'>NULL</span><span class='op'>)</span>
 </code></pre>
 </div>
-<p><img src="highlighting-a-row-of-a-complexheatmap_files/figure-html5/highlight_row2-1.png" width="624" /></p>
+<p><img src="highlighting-a-row-of-a-complexheatmap_files/figure-html5/highlight_row2-1.png" width="624" data-distill-preview=1 /></p>
 </div>
 <p>Voila! <strong>row2</strong> is separated from the others to draw attention to it. It’s not perfect, but hopefully it’s useful to others. Note, that you can’t use clustering with this method. If you have actual dendrograms to display, this will fail, because ComplexHeatmap expects you to use a numeric argument to tell the cut height for dendrograms for splitting <span class="citation" data-cites="complexheatmapSplit">(<a href="#ref-complexheatmapSplit" role="doc-biblioref">Gu 2021c</a>)</span>. Therefore, if you have dendrograms, reorder your columns and rows according to the dendrogram <strong>first</strong> and then add the splitting information and keep the clustering off.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>

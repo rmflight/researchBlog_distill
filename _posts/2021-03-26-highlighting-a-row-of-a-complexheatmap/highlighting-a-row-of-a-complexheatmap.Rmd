@@ -53,7 +53,7 @@ Now, lets suppose we just want to highlight **row2**.
 
 We create a data.frame with a factor to represent the grouping:
 
-```{r highlight_row2}
+```{r highlight_row2, preview = TRUE}
 which_row2 = which(grepl("row2", rownames(mat)))
 split = data.frame(x = c(rep("A", which_row2 - 1), "B",
                    rep("C", nrow(mat) - which_row2)))
