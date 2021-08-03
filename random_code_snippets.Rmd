@@ -3,6 +3,7 @@ title: "Random Code Snippets"
 site: distill::distill_website
 listing: 
   posts:
+    - 2021-07-22-keep-figures-in-a-word-document
     - 2021-03-26-highlighting-a-row-of-a-complexheatmap
     - 2021-03-05-randomcodesnippets
     - 2012-07-13-creating-custom-cdf-s-for-affymetrix-chips-in-bioconductor

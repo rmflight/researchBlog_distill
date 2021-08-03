@@ -24,6 +24,7 @@
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
@@ -2423,7 +2424,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2635,6 +2636,49 @@ function init_posts_list() {
 <div class="posts-container posts-with-sidebar posts-apply-limit l-screen-inset">
 <div class="posts-list">
 <h1 class="posts-list-caption" data-caption="Deciphering Life: One Bit at a Time">Deciphering Life: One Bit at a Time</h1>
+<a href="posts/2021-08-03-coloring-dendrogram-edges-with-ggraph/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["random-code-snippets","visualization","graphing","dendrogram"]}</script>
+<div class="metadata">
+<div class="publishedDate">Aug. 3, 2021</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img src="posts/2021-08-03-coloring-dendrogram-edges-with-ggraph/coloring-dendrogram-edges-with-ggraph_files/figure-html5/plot_dendrogram-1.png"/>
+</div>
+<div class="description">
+<h2>Coloring Dendrogram Edges with ggraph</h2>
+<div class="dt-tags">
+<div class="dt-tag">random-code-snippets</div>
+<div class="dt-tag">visualization</div>
+<div class="dt-tag">graphing</div>
+<div class="dt-tag">dendrogram</div>
+</div>
+<p>Here is how I got edges colored in a dendrogram with ggraph. Use "node." in front of the node data column you want.</p>
+</div>
+</a>
+<a href="posts/2021-07-22-keep-figures-in-a-word-document/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["random-code-snippets","reproducibility","rmarkdown"]}</script>
+<div class="metadata">
+<div class="publishedDate">July 22, 2021</div>
+<div class="dt-authors">
+<div class="dt-author">Robert M Flight</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Keeping Figures in an Rmd -- Word Document</h2>
+<div class="dt-tags">
+<div class="dt-tag">random-code-snippets</div>
+<div class="dt-tag">reproducibility</div>
+<div class="dt-tag">rmarkdown</div>
+</div>
+<p>How to make your rmarkdown to word conversion also generate a directory of figures.</p>
+</div>
+</a>
 <a href="posts/2021-05-02-animating-a-geographic-introduction/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["maps","graphing","visualization","animation"]}</script>
 <div class="metadata">
@@ -2709,7 +2753,7 @@ function init_posts_list() {
 </div>
 </div>
 <div class="thumbnail">
-<img src="posts/2021-03-21-creating-a-map-of-routes-weighted-by-travel/sarah_lexington.png"/>
+<img data-src="posts/2021-03-21-creating-a-map-of-routes-weighted-by-travel/sarah_lexington.png"/>
 </div>
 <div class="description">
 <h2>Creating a Map of Routes Weighted by Travel</h2>
@@ -3920,7 +3964,7 @@ Also why I finally switched to {drake}.</p>
 <ul>
 <li>
 <a href="#category:Articles">Articles</a>
-<span class="category-count">(58)</span>
+<span class="category-count">(60)</span>
 </li>
 <li>
 <a href="#category:academia">academia</a>
@@ -3983,6 +4027,10 @@ Also why I finally switched to {drake}.</p>
 <span class="category-count">(1)</span>
 </li>
 <li>
+<a href="#category:dendrogram">dendrogram</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
 <a href="#category:development">development</a>
 <span class="category-count">(18)</span>
 </li>
@@ -4028,7 +4076,7 @@ Also why I finally switched to {drake}.</p>
 </li>
 <li>
 <a href="#category:graphing">graphing</a>
-<span class="category-count">(2)</span>
+<span class="category-count">(3)</span>
 </li>
 <li>
 <a href="#category:group-by">group-by</a>
@@ -4200,7 +4248,7 @@ Also why I finally switched to {drake}.</p>
 </li>
 <li>
 <a href="#category:random-code-snippets">random-code-snippets</a>
-<span class="category-count">(5)</span>
+<span class="category-count">(7)</span>
 </li>
 <li>
 <a href="#category:random-forest">random-forest</a>
@@ -4208,7 +4256,7 @@ Also why I finally switched to {drake}.</p>
 </li>
 <li>
 <a href="#category:reproducibility">reproducibility</a>
-<span class="category-count">(7)</span>
+<span class="category-count">(8)</span>
 </li>
 <li>
 <a href="#category:research">research</a>
@@ -4216,7 +4264,7 @@ Also why I finally switched to {drake}.</p>
 </li>
 <li>
 <a href="#category:rmarkdown">rmarkdown</a>
-<span class="category-count">(3)</span>
+<span class="category-count">(4)</span>
 </li>
 <li>
 <a href="#category:roxygen2">roxygen2</a>
@@ -4276,7 +4324,7 @@ Also why I finally switched to {drake}.</p>
 </li>
 <li>
 <a href="#category:visualization">visualization</a>
-<span class="category-count">(5)</span>
+<span class="category-count">(6)</span>
 </li>
 <li>
 <a href="#category:workflow">workflow</a>
