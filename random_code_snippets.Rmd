@@ -3,6 +3,7 @@ title: "Random Code Snippets"
 site: distill::distill_website
 listing: 
   posts:
+    - 2021-12-21-reusing-ggplot2-colors
     - 2021-11-11-zooming-ggraph-plots
     - 2021-10-27-r-cmd-check-and-non-pdf-vignettes
     - 2021-08-30-random-forest-classification-using-parsnip
