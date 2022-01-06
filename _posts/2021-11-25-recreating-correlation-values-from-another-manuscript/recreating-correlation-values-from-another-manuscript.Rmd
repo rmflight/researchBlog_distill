@@ -1,0 +1,90 @@
+---
+title: "Recreating Correlation Values from Another Manuscript"
+description: |
+  Documenting my journey trying to recreate some correlations calculated in another manuscript.
+author:
+  - name: Robert M Flight
+    url: {}
+date: 2021-11-25
+output:
+  distill::distill_article:
+    self_contained: false
+    highlight: breezedark
+    toc: true
+categories:
+  - reproducibility
+bibliography: refs.bib
+---
+
+
+## Background
+
+I've been working on a manuscript for our newish correlation method, information-content-informed Kendall-tau (ICI-Kendalltau).
+As part of that manuscript, we wanted to highlight how well the correlation measure detects outlier samples.
+Two datasets we are using for that aspect are public, one from The Cancer Genome Atlas and the other from the Barton group.
+The Barton group and collaborators produced a highly replicated RNAseq yeast dataset, 48 replicates in two conditions, and have used it in various analyses [@Gierlinski2015].
+
+## So What
+
+For my manuscript, ideally I want to be able to comment on the outliers found in one of the original Barton group manuscripts [@Gierlinski2015].
+To do that, I need access to one of:
+
+* the sample-sample correlations themselves,
+* the counts from each sample
+* or be able to recreate counts from each sample.
+
+Several years ago I was asking about this dataset on twitter when I was using it for another project, because the project ID in the SRA didn't have a mapping to condition.
+Dr. Geoff Barton pointed me to a metadata file available on figshare [@Barton2015].
+This allowed me to generate read counts across biological replicates.
+However, if I had poked around figshare a bit more, I would have likely seen both of the files with read counts for each replicate already submitted [@SNF2Barton2015; @WTBarton2015].
+It really sucks that I hadn't noticed these other files years ago, it would have saved me the effort in remapping and generating gene counts myself, as well as getting really weird correlation values compared to [@Gierlinski2015].
+
+## My Correlations
+
+From the demultiplexed read data and the metadata file I found several years ago, I had run software to generate read counts for each sample in each lane, and summed them across lanes.
+I know how to do these kinds of things, even though I will be the first to admit it is **not** my personal bread and butter analysis. (I normally get involved after count generation).
+Even with hints from the manuscript about how [@Gierlinski2015] did the correlation calculation, I don't get anything close to the range of median correlation values within each class of samples.
+Which I thought was very, very weird.
+I implemented a variety of transformation methods and inclusion of missing values for my correlation calculations:
+
+* logged values (log and log1p)
+* raw values
+* removal and inclusion of missing (0) values
+
+Even with all of these variations, I could not come close to the same values I found presented in their manuscript.
+Here, in panel (a) of Figure 2 from [@Gierlinski2015], the median correlations range from 0.7 to 1.
+
+```{r fig.cap = "Figure 2(a) from [@Gierlinski2015]. Identifying bad RNA-seq replicates in the WT (left) and Δsnf2 (right) data. The top three panels (a–c) show individual criteria for identifying ‘bad’ replicates which are combined into a quality score (d) in order to identify ‘bad’ replicates in each condition. The identified ‘bad’ replicates are shown as numbered points in each panel. The individual criteria are (a) median correlation coefficient, ri∼⁠, for each replicate i against all other replicates, (b) outlier fraction, fi⁠, calculated as a fraction of genes where the given replicate is more than five-trimmed standard deviations from the trimmed mean and (c) median reduced χ2 of pileup depth, χ∼2i⁠, as a measure of the non-uniformity of read distribution within genes (see also Fig. 3)", out.extra = "class=external", echo = FALSE}
+knitr::include_graphics("gierlinski_2015_fig2_cropped.png")
+```
+**Figure with their graph, and my values using my data**.
+
+
+## Finding the Data
+
+Finally, during the week of 2021-11-25, I happened across another manuscript on this dataset from 2016, that mentions a GitHub repo that lo and behold had copies of the preprocessed data to the level of gene counts per biological replicate.
+Awesome!
+
+## New Correlation
+
+Using the preprocessed data, I was finally able to get what amounted to identical values of correlation, based on comparing the lowest correlation values with the figure.
+Great.
+
+## Why Not Logs?
+
+One interesting thing about having the correct correlations is discovering that Gierlinski et al didn't use log-transformed data in their Pearson correlation calculations.
+This seems unusual to me.
+All my career in -omics, the one thing I've had drilled into me is that doing a linear correlation on data that has proportional error component or variance is a **very bad** idea.
+Proportional error or variance means the variance increases with increasing mean values, which is definitely true of these count data.
+
+If I had to guess **why** log-transformed values weren't used, I think it is because of the analysis in the replicate paper about how well the un-transformed values fit a normal distribution vs a log-normal distribution.
+That figure and caption are provided here for reference.
+
+```{r fig.cap = "Figure 5 from [@Gierlinski2015]. Goodness-of-fit test results for normal (top panels), log-normal (middle panels) and negative binomial (bottom panels) distributions. Each panel shows the test P-value versus the mean count across replicates. Each dot represents equal-count normalized data from one gene. Panels on the left (a, b, e, f, i, j) show clean data with bad replicates rejected (42 and 44 replicates remaining in WT and Δsnf2, respectively). Panels on the right (c, d, g, h, k, l) show all available data (48 replicates in each condition). Due to the number of bootstraps performed, P-values for the negative-binomial test are limited to ∼10−2. Due to numerical precision of the software library used, P-values from the normal and log-normal tests are limited to ∼10−16. Below these limits data points are marked in orange (light gray in black and white) at the bottom of each panel. Horizontal lines show the Benjamini–Hochberg limit corresponding to the significance of 0.05 for the given dataset. The numbers in the right bottom corner of each panel indicate the number of genes with P-values below the significance limit and the total number of genes", out.extra = "class=external", echo = FALSE}
+knitr::include_graphics("gierlinski_2015_fig5.jpeg")
+```
+
+## How Did I Miss the Original Data?
+
+It turns out, I didn't look hard enough at the first place that Geoff Barton sent me to.
+When I started poking around the figshare repo's from Geoff and others in the group and following links, it was easy to find a copy of the preprocessed data from each condition.
