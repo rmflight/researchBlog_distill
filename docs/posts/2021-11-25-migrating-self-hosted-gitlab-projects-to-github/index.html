@@ -94,7 +94,7 @@ code span.wa { color: #da4453; } /* Warning */
 
 <meta property="description" itemprop="description" content="We wanted to migrate from self-hosted GitLab projects to GitHub repos. Here is some background on how we accomplished that."/>
 
-<link rel="canonical" href="https://rmflight.github.io/posts/2021-11-25-migrating-self-hosted-gitlab-to-github/"/>
+<link rel="canonical" href="https://rmflight.github.io/posts/2021-11-25-migrating-self-hosted-gitlab-projects-to-github/"/>
 <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
 
 <!--  https://schema.org/Article -->
@@ -106,7 +106,7 @@ code span.wa { color: #da4453; } /* Warning */
 <meta property="og:title" content="Deciphering Life: One Bit at a Time: Migrating Self-Hosted GitLab Projects to GitHub"/>
 <meta property="og:type" content="article"/>
 <meta property="og:description" content="We wanted to migrate from self-hosted GitLab projects to GitHub repos. Here is some background on how we accomplished that."/>
-<meta property="og:url" content="https://rmflight.github.io/posts/2021-11-25-migrating-self-hosted-gitlab-to-github/"/>
+<meta property="og:url" content="https://rmflight.github.io/posts/2021-11-25-migrating-self-hosted-gitlab-projects-to-github/"/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:site_name" content="Deciphering Life: One Bit at a Time"/>
 
@@ -114,13 +114,13 @@ code span.wa { color: #da4453; } /* Warning */
 <meta property="twitter:card" content="summary"/>
 <meta property="twitter:title" content="Deciphering Life: One Bit at a Time: Migrating Self-Hosted GitLab Projects to GitHub"/>
 <meta property="twitter:description" content="We wanted to migrate from self-hosted GitLab projects to GitHub repos. Here is some background on how we accomplished that."/>
-<meta property="twitter:url" content="https://rmflight.github.io/posts/2021-11-25-migrating-self-hosted-gitlab-to-github/"/>
+<meta property="twitter:url" content="https://rmflight.github.io/posts/2021-11-25-migrating-self-hosted-gitlab-projects-to-github/"/>
 <meta property="twitter:site" content="@rmflight"/>
 <meta property="twitter:creator" content="@rmflight"/>
 
 <!--  https://scholar.google.com/intl/en/scholar/inclusion.html#indexing -->
 <meta name="citation_title" content="Deciphering Life: One Bit at a Time: Migrating Self-Hosted GitLab Projects to GitHub"/>
-<meta name="citation_fulltext_html_url" content="https://rmflight.github.io/posts/2021-11-25-migrating-self-hosted-gitlab-to-github/"/>
+<meta name="citation_fulltext_html_url" content="https://rmflight.github.io/posts/2021-11-25-migrating-self-hosted-gitlab-projects-to-github/"/>
 <meta name="citation_fulltext_world_readable" content=""/>
 <meta name="citation_online_date" content="2021/11/25"/>
 <meta name="citation_publication_date" content="2021/11/25"/>
@@ -129,7 +129,7 @@ code span.wa { color: #da4453; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["creative_commons","title","description","author","date","output","categories","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["CC BY"]},{"type":"character","attributes":{},"value":["Migrating Self-Hosted GitLab Projects to GitHub"]},{"type":"character","attributes":{},"value":["We wanted to migrate from self-hosted GitLab projects to GitHub repos. Here is some background on how we accomplished that."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Robert M Flight"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":[]}},"value":[]}]}]},{"type":"character","attributes":{},"value":["2021-11-25"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","highlight","toc"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"character","attributes":{},"value":["breezedark"]},{"type":"logical","attributes":{},"value":[true]}]}]},{"type":"character","attributes":{},"value":["version-control","github","gitlab"]},{"type":"character","attributes":{},"value":["https://rmflight.github.io/posts/2021-11-25-migrating-self-hosted-gitlab-to-github/"]},{"type":"character","attributes":{},"value":["https://rmflight.github.io/posts/2021-11-25-migrating-self-hosted-gitlab-to-github/"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["creative_commons","title","description","author","date","output","categories","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["CC BY"]},{"type":"character","attributes":{},"value":["Migrating Self-Hosted GitLab Projects to GitHub"]},{"type":"character","attributes":{},"value":["We wanted to migrate from self-hosted GitLab projects to GitHub repos. Here is some background on how we accomplished that."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Robert M Flight"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":[]}},"value":[]}]}]},{"type":"character","attributes":{},"value":["2021-11-25"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","highlight","toc"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"character","attributes":{},"value":["breezedark"]},{"type":"logical","attributes":{},"value":[true]}]}]},{"type":"character","attributes":{},"value":["version-control","github","gitlab"]},{"type":"character","attributes":{},"value":["https://rmflight.github.io/posts/2021-11-25-migrating-self-hosted-gitlab-projects-to-github/"]},{"type":"character","attributes":{},"value":["https://rmflight.github.io/posts/2021-11-25-migrating-self-hosted-gitlab-projects-to-github/"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -2295,6 +2295,10 @@ d-article .sourceCode {
 
 d-article blockquote {
   color: #F5F8FA;
+}
+
+.pandoc-table {
+  color: #F5F8FA;
 }</style>
 <style type="text/css">
 /* base style */
@@ -2600,16 +2604,16 @@ d-appendix d-footnote-list a.footnote-backlink {
   <p class="social_footer">
     <span class="article-sharing">
       Share: &nbsp;
-      <a href="https://twitter.com/share?text=Migrating%20Self-Hosted%20GitLab%20Projects%20to%20GitHub&amp;url=https%3A%2F%2Frmflight.github.io%2Fposts%2F2021-11-25-migrating-self-hosted-gitlab-to-github%2F">
+      <a href="https://twitter.com/share?text=Migrating%20Self-Hosted%20GitLab%20Projects%20to%20GitHub&amp;url=https%3A%2F%2Frmflight.github.io%2Fposts%2F2021-11-25-migrating-self-hosted-gitlab-projects-to-github%2F">
         <i class="fab fa-twitter"></i>
       </a>
-      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Frmflight.github.io%2Fposts%2F2021-11-25-migrating-self-hosted-gitlab-to-github%2F&amp;title=Migrating%20Self-Hosted%20GitLab%20Projects%20to%20GitHub">
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Frmflight.github.io%2Fposts%2F2021-11-25-migrating-self-hosted-gitlab-projects-to-github%2F&amp;title=Migrating%20Self-Hosted%20GitLab%20Projects%20to%20GitHub">
         <i class="fab fa-linkedin"></i>
       </a>
-      <a href="https://pinterest.com/pin/create/link/?url=https%3A%2F%2Frmflight.github.io%2Fposts%2F2021-11-25-migrating-self-hosted-gitlab-to-github%2F&amp;description=Migrating%20Self-Hosted%20GitLab%20Projects%20to%20GitHub">
+      <a href="https://pinterest.com/pin/create/link/?url=https%3A%2F%2Frmflight.github.io%2Fposts%2F2021-11-25-migrating-self-hosted-gitlab-projects-to-github%2F&amp;description=Migrating%20Self-Hosted%20GitLab%20Projects%20to%20GitHub">
         <i class="fab fa-pinterest"></i>
       </a>
-      <a href="https://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=https%3A%2F%2Frmflight.github.io%2Fposts%2F2021-11-25-migrating-self-hosted-gitlab-to-github%2F">
+      <a href="https://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=https%3A%2F%2Frmflight.github.io%2Fposts%2F2021-11-25-migrating-self-hosted-gitlab-projects-to-github%2F">
         <i class="fab fa-facebook"></i>
       </a>
     </span>
@@ -2632,12 +2636,12 @@ d-appendix d-footnote-list a.footnote-backlink {
   <p>Text and figures are licensed under Creative Commons Attribution <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Source code is available at <a href="https://github.com/rmflight/researchBlog_distill">https://github.com/rmflight/researchBlog_distill</a>, unless otherwise noted. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".</p>
   <h3 id="citation">Citation</h3>
   <p>For attribution, please cite this work as</p>
-  <pre class="citation-appendix short">Flight (2021, Nov. 25). Deciphering Life: One Bit at a Time: Migrating Self-Hosted GitLab Projects to GitHub. Retrieved from https://rmflight.github.io/posts/2021-11-25-migrating-self-hosted-gitlab-to-github/</pre>
+  <pre class="citation-appendix short">Flight (2021, Nov. 25). Deciphering Life: One Bit at a Time: Migrating Self-Hosted GitLab Projects to GitHub. Retrieved from https://rmflight.github.io/posts/2021-11-25-migrating-self-hosted-gitlab-projects-to-github/</pre>
   <p>BibTeX citation</p>
   <pre class="citation-appendix long">@misc{flight2021migrating,
   author = {Flight, Robert M},
   title = {Deciphering Life: One Bit at a Time: Migrating Self-Hosted GitLab Projects to GitHub},
-  url = {https://rmflight.github.io/posts/2021-11-25-migrating-self-hosted-gitlab-to-github/},
+  url = {https://rmflight.github.io/posts/2021-11-25-migrating-self-hosted-gitlab-projects-to-github/},
   year = {2021}
 }</pre>
 </div>
