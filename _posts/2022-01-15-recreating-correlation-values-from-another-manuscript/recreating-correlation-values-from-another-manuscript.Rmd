@@ -22,7 +22,7 @@ bibliography: refs.bib
 I've been working on a manuscript for our newish correlation method, information-content-informed Kendall-tau (ICI-Kendalltau, package currently at [@icikendalltau]).
 As part of that manuscript, we wanted to highlight how well the correlation measure detects outlier samples.
 Two datasets we are using for that aspect are public, one from The Cancer Genome Atlas and the other from the Barton group.
-The Barton group and collaborators produced a highly replicated RNAseq yeast dataset, 48 replicates in two conditions, and have used it in various analyses [@Gierlinski2015, @Schurch2016].
+The Barton group and collaborators produced a highly replicated RNAseq yeast dataset, 48 replicates in two conditions, and have used it in various analyses [@Gierlinski2015; @Schurch2016].
 
 ## So What
 
