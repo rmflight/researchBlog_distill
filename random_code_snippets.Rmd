@@ -3,6 +3,7 @@ title: "Random Code Snippets"
 site: distill::distill_website
 listing: 
   posts:
+    - 2022-01-31-heatmap-colormaps
     - 2022-01-06-cairo-and-xquartz-in-mac-github-actions
     - 2022-01-06-pie-charts-in-rcy3
     - 2022-01-06-dplyr-in-packages-and-global-variables
