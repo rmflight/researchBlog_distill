@@ -42,7 +42,9 @@ With every project we get asked to work on, we have a meeting, and who is at tha
 
 ## Template
 
-During that meeting, we fill in all the details of this template (which I translated to markdown from foswiki):
+During that meeting, we fill in all the details of this template (which I translated to markdown from foswiki).
+Obviously, not all of the fields necessarily get filled out for each project, and sometimes other custom fields will get added.
+This template helps us capture the minimum information needed.
 
 ```
 ## Meeting Description
