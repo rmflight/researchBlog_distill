@@ -3,3 +3,5 @@ title: "Deciphering Life: One Bit at a Time"
 site: distill::distill_website
 listing: posts
 ---
+
+<a rel="me" href="https://mastodon.social/@rmflight"></a>
